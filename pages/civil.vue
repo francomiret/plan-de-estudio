@@ -51,13 +51,19 @@
                       >
                     </v-row>
 
-                    <template v-if="!materiaHabilitada(materia)" v-slot:actions>
+                    <template
+                      v-if="
+                        !materiasAprobadasHabilitadas(materia) ||
+                        !materiasRegularesHabilitadas(materia)
+                      "
+                      v-slot:actions
+                    >
                       <v-icon color="error"> mdi-alert-circle </v-icon>
                     </template>
                   </v-expansion-panel-header>
 
                   <v-expansion-panel-content :color="getColor(materia)">
-                    <div v-if="!materiaHabilitada(materia)">
+                    <div v-if="!materiasRegularesHabilitadas(materia)">
                       <p><strong> Necesitas regulares</strong></p>
                       <p
                         v-for="(materia, i) in materiasRegulares(materia)"
@@ -71,6 +77,8 @@
                         </template>
                       </p>
                       <v-divider></v-divider>
+                    </div>
+                    <div v-if="!materiasAprobadasHabilitadas(materia)">
                       <p><strong> Necesitas aprobadas</strong></p>
                       <p
                         v-for="(materia, i) in materiasAprobadas(materia)"
@@ -84,7 +92,7 @@
                         </template>
                       </p>
                     </div>
-                    <div v-else>
+                    <div v-if="materiasRegularesHabilitadas(materia)">
                       <v-btn-toggle>
                         <v-btn
                           @click="
@@ -241,19 +249,28 @@ export default {
         return true;
       }
     },
-    materiaHabilitada(materia) {
+
+    materiasRegularesHabilitadas(materia) {
       const materiasRegularesEstado = this.materiasRegulares(materia).map(
         (x) => x.estado
       );
+
+      if (
+        materiasRegularesEstado.every(
+          (x) => x === "regular" || x === "aprobada"
+        )
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    },
+
+    materiasAprobadasHabilitadas(materia) {
       const materiasAprobadasEstado = this.materiasAprobadas(materia).map(
         (x) => x.estado
       );
-      if (
-        materiasAprobadasEstado.every((x) => x === "aprobada") &&
-        !materiasRegularesEstado.some(
-          (x) => x === "desprobada" || x === "cursando"
-        )
-      ) {
+      if (materiasAprobadasEstado.every((x) => x === "aprobada")) {
         return true;
       } else {
         return false;
@@ -263,7 +280,7 @@ export default {
     actualizarEstados() {
       let materias = [];
       this.data.forEach((x) => {
-        if (!this.materiaHabilitada(x)) {
+        if (!this.materiasRegularesHabilitadas(x)) {
           materias.push({ ...x, estado: "desaprobada" });
         } else {
           materias.push(x);
@@ -274,6 +291,8 @@ export default {
 
     cambiarEstadoMateria(id, estado) {
       this.data.find((materia) => materia.id === id).estado = estado;
+      this.actualizarEstados();
+      this.actualizarEstados();
       this.actualizarEstados();
       localStorage.setItem("materiasCivil", JSON.stringify(this.data));
       this.data = JSON.parse(localStorage.getItem("materiasCivil"));
