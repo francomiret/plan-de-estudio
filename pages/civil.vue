@@ -136,17 +136,23 @@
       <v-container flat tile class="text-center">
         <v-card-text class="white--text pt-0">
           <v-row>
-            <v-col cols="12" sm="4" md="3">
-              <h2>Aprobadas: {{ cantMateriasAprobadas }}/{{ data.length }}</h2>
+            <v-col cols="12" sm="6" md="3">
+              <p class="display-2">
+                {{ cantMateriasAprobadas }}/{{ data.length }}
+              </p>
+              <h2>Materias aprobadas</h2>
             </v-col>
-            <v-col cols="12" sm="4" md="3">
-              <h2>Horas de electivas: {{ totalHorasElectivas }} hs.</h2>
+            <v-col cols="12" sm="6" md="3">
+              <p class="display-2">{{ totalHorasElectivas }} hs.</p>
+              <h2>Horas electivas</h2>
             </v-col>
-            <v-col cols="12" sm="4" md="3">
-              <h2>Progreso: {{ progresoTotal }}%</h2>
+            <v-col cols="12" sm="6" md="3">
+              <p class="display-2">{{ progresoTotal }}%</p>
+              <h2>Progreso</h2>
             </v-col>
-            <v-col cols="12" sm="4" md="3">
-              <h2>Horas semanales: {{ totalHorasSemanales }} hs.</h2>
+            <v-col cols="12" sm="6" md="3">
+              <p class="display-2">{{ totalHorasSemanales }} hs.</p>
+              <h2>Horas semanales cursando</h2>
             </v-col>
           </v-row>
         </v-card-text>
