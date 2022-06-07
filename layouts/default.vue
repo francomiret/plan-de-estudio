@@ -1,5 +1,5 @@
 <template>
-  <v-app dark >
+  <v-app dark>
     <v-navigation-drawer
       v-model="drawer"
       :mini-variant="miniVariant"
@@ -29,7 +29,7 @@
       <!-- <v-btn
         icon
         @click.stop="miniVariant = !miniVariant"
-      >
+      >     
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn>
       <v-btn
@@ -68,8 +68,18 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer> -->
-    <v-footer :absolute="!fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }} - Franco Miret</span>
+    <v-footer :absolute="!fixed" padless app>
+      <v-container flat tile class="text-center">
+        <p class="footer__authoring">
+          Hecho con <span>❤</span> por <strong>Franco Miret</strong>
+        </p>
+        <small class="footer__authoring">
+          Inspirado en
+          <a href="https://valentincosta.com/isi/"
+            >Plan de estudio ISI - Valentin Costa</a
+          >
+        </small>
+      </v-container>
     </v-footer>
   </v-app>
 </template>
