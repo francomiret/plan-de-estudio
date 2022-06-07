@@ -3,7 +3,7 @@ import colors from "vuetify/es5/util/colors";
 export default {
   target: "static",
   router: {
-    base: 'https://francomiret.github.io/plan-de-estudio/'
+    base: '/https://francomiret.github.io/plan-de-estudio/'
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
