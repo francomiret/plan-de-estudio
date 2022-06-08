@@ -63,38 +63,62 @@
                     </template>
                   </v-expansion-panel-header>
 
-                  <v-expansion-panel-content :color="getColor(materia)">
-                    <div v-if="!materiasRegularesHabilitadas(materia)">
+                  <v-expansion-panel-content>
+                    <div v-if="materia.paraCursar.necesitaRegular.length">
+                      <v-divider></v-divider>
                       <p><strong> Necesitas regulares</strong></p>
                       <p
                         v-for="(materia, i) in materiasRegulares(materia)"
                         :key="i"
                       >
-                        {{ materia.nombre }}
-                        <template>
-                          <v-chip x-small :color="getColor(materia)">
-                            {{ materia.estado }}
-                          </v-chip>
-                        </template>
+                        <small>
+                          {{ materia.nombre }}
+                          <template>
+                            <v-chip x-small :color="getColor(materia)">
+                              {{ materia.estado }}
+                            </v-chip>
+                            <v-icon
+                              small
+                              v-if="
+                                !materiasAprobadasHabilitadas(materia) ||
+                                !materiasRegularesHabilitadas(materia)
+                              "
+                              color="error"
+                            >
+                              mdi-alert-circle
+                            </v-icon>
+                          </template>
+                        </small>
                       </p>
-                      <v-divider></v-divider>
                     </div>
-                    <div v-if="!materiasAprobadasHabilitadas(materia)">
+                    <div v-if="materia.paraCursar.necesitaRegular.length">
                       <p><strong> Necesitas aprobadas</strong></p>
                       <p
                         v-for="(materia, i) in materiasAprobadas(materia)"
                         :key="i"
                       >
-                        {{ materia.nombre }}
-                        <template>
-                          <v-chip x-small :color="getColor(materia)">
-                            {{ materia.estado }}
-                          </v-chip>
-                        </template>
+                        <small>
+                          {{ materia.nombre }}
+                          <template>
+                            <v-chip x-small :color="getColor(materia)">
+                              {{ materia.estado }}
+                            </v-chip>
+                            <v-icon
+                              small
+                              v-if="
+                                !materiasAprobadasHabilitadas(materia) ||
+                                !materiasRegularesHabilitadas(materia)
+                              "
+                              color="error"
+                            >
+                              mdi-alert-circle
+                            </v-icon>
+                          </template>
+                        </small>
                       </p>
                     </div>
                     <div v-if="materiasRegularesHabilitadas(materia)">
-                      <v-btn-toggle>
+                      <v-btn-toggle dense   rounded>
                         <v-btn
                           @click="
                             cambiarEstadoMateria(materia.id, 'desaprobada')
