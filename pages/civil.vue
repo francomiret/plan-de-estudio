@@ -118,7 +118,7 @@
                       </p>
                     </div>
                     <div v-if="materiasRegularesHabilitadas(materia)">
-                      <v-btn-toggle dense   rounded>
+                      <v-btn-toggle dense rounded>
                         <v-btn
                           @click="
                             cambiarEstadoMateria(materia.id, 'desaprobada')
@@ -215,25 +215,29 @@ export default {
       }
     },
     progreso(materias) {
-      const horasObligatorias = materias
-        .filter((x) => x.electiva !== true)
-        .map((x) => parseInt(x.horas))
-        .reduce((accumulator, curr) => accumulator + curr);
-      const horasObligatoriasAprobadas = materias
-        .filter((x) => x.electiva !== true && x.estado === "aprobada")
-        .map((x) => parseInt(x.horas))
-        .reduce((accumulator, curr) => accumulator + curr);
-      const horasElectivas = 44;
-      const horasElectivasAprobadas =
-        this.totalHorasElectivas > horasElectivas
-          ? 44
-          : this.totalHorasElectivas;
-      const horasTotalesMinimas = horasObligatorias + horasElectivas;
-      this.progresoTotal = (
-        ((horasObligatoriasAprobadas + horasElectivasAprobadas) /
-          horasTotalesMinimas) *
-        100
-      ).toFixed(2);
+      if (materias.length) {
+        let horasObligatorias = 0;
+        materias
+          .filter((x) => x.electiva !== true)
+          .map((x) => parseInt(x.horas))
+          .forEach((x) => (horasObligatorias += x));
+        let horasObligatoriasAprobadas = 0;
+        materias
+          .filter((x) => x.electiva !== true && x.estado === "aprobada")
+          .map((x) => parseInt(x.horas))
+          .forEach((x) => (horasObligatoriasAprobadas += x));
+        const horasElectivas = 44;
+        const horasElectivasAprobadas =
+          this.totalHorasElectivas > horasElectivas
+            ? 44
+            : this.totalHorasElectivas;
+        const horasTotalesMinimas = horasObligatorias + horasElectivas;
+        this.progresoTotal = (
+          ((horasObligatoriasAprobadas + horasElectivasAprobadas) /
+            horasTotalesMinimas) *
+          100
+        ).toFixed(2);
+      }
     },
     cantidadMateriasAprobadas(materias) {
       this.cantMateriasAprobadas = materias.filter(
