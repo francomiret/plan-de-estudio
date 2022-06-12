@@ -37,7 +37,7 @@
     </v-navigation-drawer>
     <v-app-bar :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn href="/" icon>
+      <v-btn to="/" icon>
         <v-icon>mdi-home</v-icon>
       </v-btn>
       <v-toolbar-title v-text="title" />
