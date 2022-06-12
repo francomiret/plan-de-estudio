@@ -11,13 +11,13 @@
 
 <script>
 import PlanDeEstudios from "@/components/PlanDeEstudios";
-import data from "../static/isi-frcu.json";
+import isi from "../static/isi-frcu.json";
 
 export default {
   components: { PlanDeEstudios },
   data() {
     return {
-      materias: data,
+      materias: isi,
     };
   },
 };

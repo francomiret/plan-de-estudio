@@ -34,7 +34,7 @@ export default {
           color: "yellow",
         },
         {
-          to: "/civil-frcu",
+          to: "/isi-frcu",
           title: "Ingeniería en Sistema de Información UTN-FRCU",
           icon: "mdi-laptop",
           color: "green",

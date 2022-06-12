@@ -399,6 +399,7 @@ export default {
         .forEach((x) => (x.estado = "APROBADA"));
       localStorage.setItem(this.dbName, JSON.stringify(this.data));
       this.data = JSON.parse(localStorage.getItem(this.dbName));
+      this.actualizarEstadisticas(this.data);
     },
     getButtonColor(año) {
       if (
