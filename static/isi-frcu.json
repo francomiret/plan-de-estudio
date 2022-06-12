@@ -1,0 +1,661 @@
+[
+  {
+    "id": "2",
+    "nombre": "SISTEMAS Y ORGANIZACIONES",
+    "horas": "3",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "3",
+    "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "4",
+    "nombre": "MATEMÁTICA DISCRETA",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "5",
+    "nombre": "QUÍMICA",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "6",
+    "nombre": "SISTEMAS DE REPRESENTACIÓN",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "1",
+    "nombre": "ANÁLISIS MATEMÁTICO I",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "7",
+    "nombre": "ALGORITMOS Y ESTRUCTURA DE DATOS",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "8",
+    "nombre": "ARQUITECTURA DE COMPUTADORAS",
+    "horas": "8",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "9",
+    "nombre": "ANÁLISIS MATEMÁTICO II",
+    "horas": "5",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "11",
+    "nombre": "ANÁLISIS DE SISTEMAS",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["2", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "13",
+    "nombre": "INGLÉS I",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "10",
+    "nombre": "FÍSICA I",
+    "horas": "10",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "12",
+    "nombre": "SINTAXIS Y SEMÁNTICA DE LENGUAJES",
+    "horas": "8",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["4", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "14",
+    "nombre": "PARADIGMAS DE PROGRAMACIÓN",
+    "horas": "8",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["4", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "15",
+    "nombre": "SISTEMAS OPERATIVOS",
+    "horas": "8",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["4", "7", "8"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "16",
+    "nombre": "INGLÉS II",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["13"] }
+  },
+  {
+    "id": "17",
+    "nombre": "DISEÑO DE SISTEMAS",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "14"],
+      "necesitaAprobada": ["2", "4", "7"]
+    }
+  },
+  {
+    "id": "21",
+    "nombre": "MATEMÁTICA SUPERIROR",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["9"], "necesitaAprobada": ["1", "3"] }
+  },
+  {
+    "id": "18",
+    "nombre": "FÍSICA II",
+    "horas": "10",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["1", "10"],
+      "necesitaAprobada": ["2", "4", "7"]
+    }
+  },
+  {
+    "id": "19",
+    "nombre": "ECONOMÍA",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["11"], "necesitaAprobada": ["2", "7"] }
+  },
+  {
+    "id": "20",
+    "nombre": "GESTIÓN DE DATOS",
+    "horas": "8",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "12", "14"],
+      "necesitaAprobada": ["2", "4", "7"]
+    }
+  },
+  {
+    "id": "22",
+    "nombre": "COMUNICACIONES",
+    "horas": "8",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["8", "9", "18"],
+      "necesitaAprobada": ["1", "3", "10"]
+    }
+  },
+  {
+    "id": "23",
+    "nombre": "PROBABILIDAD Y ESTADÍSTICAS",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "24",
+    "nombre": "INGENIERÍA Y SOCIEDAD",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "id": "25",
+    "nombre": "METODOLOGÍA DE LA INVESTIGACIÓN",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["2"] }
+  },
+  {
+    "id": "46",
+    "nombre": "TALLER DE PROGRAMACIÓN",
+    "horas": "8",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["12", "14"], "necesitaAprobada": ["7"] }
+  },
+  {
+    "id": "26",
+    "nombre": "ADMINISTRACIÓN DE RECURSOS",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["15", "17", "19"],
+      "necesitaAprobada": ["8", "11", "13", "14"]
+    }
+  },
+  {
+    "id": "27",
+    "nombre": "INVESTIGACIÓN OPERATIVA",
+    "horas": "5",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["21", "23"], "necesitaAprobada": ["9"] }
+  },
+  {
+    "id": "28",
+    "nombre": "LEGISLACIÓN",
+    "horas": "4",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "24"],
+      "necesitaAprobada": ["2", "7"]
+    }
+  },
+  {
+    "id": "29",
+    "nombre": "SIMULACIÓN",
+    "horas": "8",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["21", "23"], "necesitaAprobada": ["9"] }
+  },
+  {
+    "id": "30",
+    "nombre": "REDES DE INFORMACIÓN",
+    "horas": "8",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["15", "22"],
+      "necesitaAprobada": ["4", "7", "8", "9", "18"]
+    }
+  },
+  {
+    "id": "31",
+    "nombre": "INGENIERÍA DE SOFTWARE",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["17", "20", "23"],
+      "necesitaAprobada": ["11", "12", "14"]
+    }
+  },
+  {
+    "id": "32",
+    "nombre": "TEORÍA DE CONTROL",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["5", "21"],
+      "necesitaAprobada": ["9", "18"]
+    }
+  },
+  {
+    "id": "33",
+    "nombre": "SISTEMA DISTRIBUIDOS",
+    "horas": "8",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "34",
+    "nombre": "PROYECTO FINAL",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "28", "30", "31"],
+      "necesitaAprobada": ["6", "15", "16", "17", "19", "20", "22", "23", "24"]
+    }
+  },
+  {
+    "id": "35",
+    "nombre": "SISTEMA DE GESTIÓN",
+    "horas": "8",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "27", "29"],
+      "necesitaAprobada": ["15", "17", "19", "21", "23"]
+    }
+  },
+  {
+    "id": "37",
+    "nombre": "RELACIONES HUMANAS",
+    "horas": "5",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["26"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "38",
+    "nombre": "TECNOLOGÍAS PARA LA EXPLOTACIÓN DE DATOS",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["26", "27", "31"],
+      "necesitaAprobada": ["29"]
+    }
+  },
+  {
+    "id": "41",
+    "nombre": "SEGURIDAD EN SISTEMAS DE INFORMACIÓN",
+    "horas": "5",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
+  },
+  {
+    "id": "45",
+    "nombre": "CONSOLIDACIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["15"] }
+  },
+  {
+    "id": "99",
+    "nombre": "PRÁCTICA SUPERVISADA",
+    "horas": "7",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "28", "30", "31"],
+      "necesitaAprobada": ["6", "15", "16", "17", "19", "20", "22", "23", "24"]
+    }
+  },
+  {
+    "id": "36",
+    "nombre": "DESARROLLO DE APLICACIONES CLIENTE-SERVIDOR",
+    "horas": "5",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
+  },
+  {
+    "id": "39",
+    "nombre": "ADMINISTRACIÓN GERENCIAL",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "27"],
+      "necesitaAprobada": ["15", "17", "19", "21", "23"]
+    }
+  },
+  {
+    "id": "40",
+    "nombre": "INTELIGENCIA ARTIFICIAL",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["27", "29"],
+      "necesitaAprobada": ["17", "21", "23"]
+    }
+  },
+  {
+    "id": "42",
+    "nombre": "GESTIÓN AVANZADA DE DATOS",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
+  },
+  {
+    "id": "43",
+    "nombre": "AUDITORÍA DE SISTEMAS DE INFORMACIÓN",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["26", "31"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "44",
+    "nombre": "EMPRENDEDORISMO",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["19"], "necesitaAprobada": [] }
+  },
+  {
+    "id": "47",
+    "nombre": "UIT Y LOS ORGANISMOS INTERNACIONALES DE TIC",
+    "horas": "3",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": [],
+      "necesitaAprobada": ["2", "11", "17"]
+    }
+  }
+]

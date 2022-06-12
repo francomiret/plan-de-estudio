@@ -28,10 +28,16 @@ export default {
     return {
       planes: [
         {
-          to: "/civil",
+          to: "/civil-frcu",
           title: "Ingeniería Civil UTN-FRCU",
           icon: "mdi-hard-hat",
           color: "yellow",
+        },
+        {
+          to: "/civil-frcu",
+          title: "Ingeniería en Sistema de Información UTN-FRCU",
+          icon: "mdi-laptop",
+          color: "green",
         },
       ],
     };

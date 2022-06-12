@@ -1,13 +1,26 @@
 [
   {
     "nota": null,
+    "id": "4",
+    "nombre": "INGENIERÍA CIVIL I",
+    "horas": "3",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
     "id": "1",
     "nombre": "ANÁLISIS MATEMÁTICO I",
     "horas": "10",
     "ano": "1",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
@@ -20,7 +33,7 @@
     "ano": "1",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
@@ -33,24 +46,12 @@
     "ano": "1",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
-  {
-    "nota": null,
-    "id": "4",
-    "nombre": "INGENIERÍA CIVIL I",
-    "horas": "3",
-    "ano": "1",
-    "cuatrimestre": "0",
-    "esAnual": true,
-    "estado": "desaprobada",
-    "integradora": true,
-    "electiva": false,
-    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
-  },
+
   {
     "nota": null,
     "id": "5",
@@ -59,7 +60,7 @@
     "ano": "1",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
@@ -72,7 +73,7 @@
     "ano": "1",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -86,7 +87,7 @@
     "ano": "1",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -100,7 +101,7 @@
     "ano": "1",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -114,7 +115,7 @@
     "ano": "2",
     "cuatrimestre": "1",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["1", "3", "7"], "necesitaAprobada": [] }
@@ -127,7 +128,7 @@
     "ano": "2",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -141,7 +142,7 @@
     "ano": "2",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -155,7 +156,7 @@
     "ano": "2",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": true,
     "electiva": false,
@@ -169,7 +170,7 @@
     "ano": "2",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -183,7 +184,7 @@
     "ano": "2",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -197,7 +198,7 @@
     "ano": "2",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -211,7 +212,7 @@
     "ano": "2",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -225,7 +226,7 @@
     "ano": "3",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -242,7 +243,7 @@
     "ano": "3",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -259,7 +260,7 @@
     "ano": "3",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": true,
     "electiva": false,
@@ -276,7 +277,7 @@
     "ano": "3",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -290,7 +291,7 @@
     "ano": "3",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -307,7 +308,7 @@
     "ano": "3",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -324,7 +325,7 @@
     "ano": "3",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -338,7 +339,7 @@
     "ano": "3",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -355,7 +356,7 @@
     "ano": "3",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -372,7 +373,7 @@
     "ano": "3",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -388,7 +389,7 @@
     "ano": "4",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -405,7 +406,7 @@
     "ano": "4",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -422,7 +423,7 @@
     "ano": "4",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": true,
     "electiva": false,
@@ -439,7 +440,7 @@
     "ano": "4",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -456,7 +457,7 @@
     "ano": "4",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -473,7 +474,7 @@
     "ano": "4",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -490,7 +491,7 @@
     "ano": "4",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -507,7 +508,7 @@
     "ano": "5",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": true,
     "electiva": false,
@@ -524,7 +525,7 @@
     "ano": "5",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -541,7 +542,7 @@
     "ano": "5",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -558,7 +559,7 @@
     "ano": "5",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -575,7 +576,7 @@
     "ano": "5",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -592,7 +593,7 @@
     "ano": "5",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -609,7 +610,7 @@
     "ano": "5",
     "cuatrimestre": "0",
     "esAnual": true,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -626,7 +627,7 @@
     "ano": "5",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -643,7 +644,7 @@
     "ano": "5",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -660,7 +661,7 @@
     "ano": "5",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -677,7 +678,7 @@
     "ano": "5",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -694,7 +695,7 @@
     "ano": "5",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -708,7 +709,7 @@
     "ano": "5",
     "cuatrimestre": "2",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": true,
@@ -722,7 +723,7 @@
     "ano": "6",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": true,
     "electiva": false,
@@ -739,7 +740,7 @@
     "ano": "6",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
 
     "integradora": false,
     "electiva": false,
@@ -756,7 +757,7 @@
     "ano": "6",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -772,7 +773,7 @@
     "ano": "6",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": true,
     "paraCursar": {
@@ -788,7 +789,7 @@
     "ano": "6",
     "cuatrimestre": "1",
     "esAnual": false,
-    "estado": "desaprobada",
+    "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": true,
     "paraCursar": {
