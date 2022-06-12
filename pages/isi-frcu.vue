@@ -1,6 +1,7 @@
 <template>
   <PlanDeEstudios
-    title="Ingeniería en Sistemas de Información UTN-FRCU"
+    title="Ingeniería en Sistemas de Información"
+    subtitle="UTN-FRCU"
     titleIcon="mdi-laptop"
     progresoTitle="Ingeniero/a"
     dbName="materiasIsi"

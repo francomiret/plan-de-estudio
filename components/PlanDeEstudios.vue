@@ -1,9 +1,10 @@
 <template>
   <div>
-    <h1>
-      <v-icon style="margin-right: 10px" x-large>{{ titleIcon }}</v-icon
-      >{{ title }}
-    </h1>
+    <v-card-title>
+      <v-icon style="margin-right: 10px">{{ titleIcon }}</v-icon>
+      {{ title }}</v-card-title
+    >
+    <v-card-subtitle> {{ subtitle }} </v-card-subtitle>
     <v-row>
       <v-col
         v-for="(año, i) in años"
@@ -27,7 +28,7 @@
             >
           </v-card-title>
 
-          <v-card-content>
+          <v-card-text>
             <div
               v-for="(cuatrimestre, i) in cuatrimestres"
               :key="i"
@@ -47,7 +48,7 @@
                     v-for="(materia, i) in materias(año, cuatrimestre)"
                     :key="i"
                   >
-                    <v-expansion-panel-header :color="getColor(materia)">
+                    <v-expansion-panel-header :color="getColor(materia.estado)">
                       <v-row>
                         <v-col>
                           {{ materia.nombre }}
@@ -79,59 +80,107 @@
                     </v-expansion-panel-header>
 
                     <v-expansion-panel-content>
-                      <div v-if="materia.paraCursar.necesitaRegular.length">
-                        <v-divider></v-divider>
-                        <p><strong> Necesitas regulares</strong></p>
-                        <p
-                          v-for="(materia, i) in materiasRegulares(materia)"
-                          :key="i"
-                        >
-                          <small>
-                            {{ materia.nombre }}
-                            <template>
-                              <v-chip x-small :color="getColor(materia)">
-                                {{ materia.estado }}
-                              </v-chip>
-                              <v-icon
-                                small
-                                v-if="
-                                  !materiasAprobadasHabilitadas(materia) ||
-                                  !materiasRegularesHabilitadas(materia)
-                                "
-                                color="error"
+                      <v-container
+                        v-if="
+                          materia.paraCursar.necesitaRegular.length ||
+                          materia.paraCursar.necesitaAprobada.length
+                        "
+                      >
+                        <v-expansion-panels>
+                          <v-expansion-panel>
+                            <v-expansion-panel-header
+                              >Para cursar necesito
+                            </v-expansion-panel-header>
+                            <v-expansion-panel-content>
+                              <div
+                                style="padding: 0px"
+                                v-if="materia.paraCursar.necesitaRegular.length"
                               >
-                                mdi-alert-circle
-                              </v-icon>
-                            </template>
-                          </small>
-                        </p>
-                      </div>
-                      <div v-if="materia.paraCursar.necesitaRegular.length">
-                        <p><strong> Necesitas APROBADAs</strong></p>
-                        <p
-                          v-for="(materia, i) in materiasAprobadas(materia)"
-                          :key="i"
-                        >
-                          <small>
-                            {{ materia.nombre }}
-                            <template>
-                              <v-chip x-small :color="getColor(materia)">
-                                {{ materia.estado }}
-                              </v-chip>
-                              <v-icon
-                                small
+                                <v-card-subtitle style="color: orangered"
+                                  >Regulares</v-card-subtitle
+                                >
+                                <v-card-text>
+                                  <p
+                                    v-for="(materia, i) in materiasRegulares(
+                                      materia
+                                    )"
+                                    :key="i"
+                                  >
+                                    <small>
+                                      {{ materia.nombre }}
+                                      <template>
+                                        <v-chip
+                                          x-small
+                                          :color="getColor(materia.estado)"
+                                        >
+                                          {{ materia.estado }}
+                                        </v-chip>
+                                        <v-icon
+                                          small
+                                          v-if="
+                                            !materiasAprobadasHabilitadas(
+                                              materia
+                                            ) ||
+                                            !materiasRegularesHabilitadas(
+                                              materia
+                                            )
+                                          "
+                                          color="error"
+                                        >
+                                          mdi-alert-circle
+                                        </v-icon>
+                                      </template>
+                                    </small>
+                                  </p>
+                                </v-card-text>
+                              </div>
+                              <div
                                 v-if="
-                                  !materiasAprobadasHabilitadas(materia) ||
-                                  !materiasRegularesHabilitadas(materia)
+                                  materia.paraCursar.necesitaAprobada.length
                                 "
-                                color="error"
                               >
-                                mdi-alert-circle
-                              </v-icon>
-                            </template>
-                          </small>
-                        </p>
-                      </div>
+                                <v-card-subtitle style="color: green"
+                                  >Aprobadas</v-card-subtitle
+                                >
+                                <v-card-text>
+                                  <p
+                                    v-for="(materia, i) in materiasAprobadas(
+                                      materia
+                                    )"
+                                    :key="i"
+                                  >
+                                    <small>
+                                      {{ materia.nombre }}
+                                      <template>
+                                        <v-chip
+                                          x-small
+                                          :color="getColor(materia.estado)"
+                                        >
+                                          {{ materia.estado }}
+                                        </v-chip>
+                                        <v-icon
+                                          small
+                                          v-if="
+                                            !materiasAprobadasHabilitadas(
+                                              materia
+                                            ) ||
+                                            !materiasRegularesHabilitadas(
+                                              materia
+                                            )
+                                          "
+                                          color="error"
+                                        >
+                                          mdi-alert-circle
+                                        </v-icon>
+                                      </template>
+                                    </small>
+                                  </p>
+                                </v-card-text>
+                              </div>
+                            </v-expansion-panel-content>
+                          </v-expansion-panel>
+                        </v-expansion-panels>
+                      </v-container>
                       <v-container>
                         <v-select
                           dense
@@ -179,7 +228,7 @@
                 </v-expansion-panels>
               </div>
             </div>
-          </v-card-content>
+          </v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -218,11 +267,19 @@
     </v-footer>
   </div>
 </template>
-
+<style>
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+}
+</style>
 <script>
 export default {
   props: {
     title: {
+      type: String,
+      required: true,
+    },
+    subtitle: {
       type: String,
       required: true,
     },
@@ -262,10 +319,10 @@ export default {
   },
 
   methods: {
-    getColor(currentMateria) {
-      const estado = this.data.find(
-        (materia) => materia.id === currentMateria.id
-      ).estado;
+    getColor(estado) {
+      // const estado = this.data.find(
+      //   (materia) => materia.id === currentMateria.id
+      // ).estado;
       if (estado === "APROBADA") {
         return "success";
       } else if (estado === "REGULAR") {

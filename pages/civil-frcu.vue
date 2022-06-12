@@ -1,6 +1,7 @@
 <template>
   <PlanDeEstudios
-    title="Ingeniería Civil UTN-FRCU"
+    title="Ingeniería Civil"
+    subtitle="UTN-FRCU"
     titleIcon="mdi-hard-hat"
     progresoTitle="Ingeniero/a"
     dbName="materiasCivil"
