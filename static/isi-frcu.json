@@ -1,5 +1,6 @@
 [
   {
+    "nota": null,
     "id": "2",
     "nombre": "SISTEMAS Y ORGANIZACIONES",
     "horas": "3",
@@ -12,6 +13,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "3",
     "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
     "horas": "10",
@@ -24,6 +26,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "4",
     "nombre": "MATEMÁTICA DISCRETA",
     "horas": "6",
@@ -36,6 +39,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "5",
     "nombre": "QUÍMICA",
     "horas": "6",
@@ -48,6 +52,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "6",
     "nombre": "SISTEMAS DE REPRESENTACIÓN",
     "horas": "6",
@@ -60,6 +65,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "1",
     "nombre": "ANÁLISIS MATEMÁTICO I",
     "horas": "10",
@@ -72,6 +78,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "7",
     "nombre": "ALGORITMOS Y ESTRUCTURA DE DATOS",
     "horas": "10",
@@ -84,6 +91,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "8",
     "nombre": "ARQUITECTURA DE COMPUTADORAS",
     "horas": "8",
@@ -96,6 +104,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "9",
     "nombre": "ANÁLISIS MATEMÁTICO II",
     "horas": "5",
@@ -108,6 +117,7 @@
     "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "11",
     "nombre": "ANÁLISIS DE SISTEMAS",
     "horas": "6",
@@ -120,6 +130,7 @@
     "paraCursar": { "necesitaRegular": ["2", "7"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "13",
     "nombre": "INGLÉS I",
     "horas": "2",
@@ -132,6 +143,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "10",
     "nombre": "FÍSICA I",
     "horas": "10",
@@ -144,6 +156,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "12",
     "nombre": "SINTAXIS Y SEMÁNTICA DE LENGUAJES",
     "horas": "8",
@@ -156,6 +169,7 @@
     "paraCursar": { "necesitaRegular": ["4", "7"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "14",
     "nombre": "PARADIGMAS DE PROGRAMACIÓN",
     "horas": "8",
@@ -169,6 +183,7 @@
     "paraCursar": { "necesitaRegular": ["4", "7"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "15",
     "nombre": "SISTEMAS OPERATIVOS",
     "horas": "8",
@@ -182,6 +197,7 @@
     "paraCursar": { "necesitaRegular": ["4", "7", "8"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "16",
     "nombre": "INGLÉS II",
     "horas": "2",
@@ -195,6 +211,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["13"] }
   },
   {
+    "nota": null,
     "id": "17",
     "nombre": "DISEÑO DE SISTEMAS",
     "horas": "6",
@@ -211,6 +228,7 @@
     }
   },
   {
+    "nota": null,
     "id": "21",
     "nombre": "MATEMÁTICA SUPERIROR",
     "horas": "4",
@@ -224,6 +242,7 @@
     "paraCursar": { "necesitaRegular": ["9"], "necesitaAprobada": ["1", "3"] }
   },
   {
+    "nota": null,
     "id": "18",
     "nombre": "FÍSICA II",
     "horas": "10",
@@ -240,6 +259,7 @@
     }
   },
   {
+    "nota": null,
     "id": "19",
     "nombre": "ECONOMÍA",
     "horas": "6",
@@ -253,6 +273,7 @@
     "paraCursar": { "necesitaRegular": ["11"], "necesitaAprobada": ["2", "7"] }
   },
   {
+    "nota": null,
     "id": "20",
     "nombre": "GESTIÓN DE DATOS",
     "horas": "8",
@@ -269,6 +290,7 @@
     }
   },
   {
+    "nota": null,
     "id": "22",
     "nombre": "COMUNICACIONES",
     "horas": "8",
@@ -285,6 +307,7 @@
     }
   },
   {
+    "nota": null,
     "id": "23",
     "nombre": "PROBABILIDAD Y ESTADÍSTICAS",
     "horas": "6",
@@ -298,6 +321,7 @@
     "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "24",
     "nombre": "INGENIERÍA Y SOCIEDAD",
     "horas": "4",
@@ -311,6 +335,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "25",
     "nombre": "METODOLOGÍA DE LA INVESTIGACIÓN",
     "horas": "4",
@@ -324,6 +349,7 @@
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["2"] }
   },
   {
+    "nota": null,
     "id": "46",
     "nombre": "TALLER DE PROGRAMACIÓN",
     "horas": "8",
@@ -337,6 +363,7 @@
     "paraCursar": { "necesitaRegular": ["12", "14"], "necesitaAprobada": ["7"] }
   },
   {
+    "nota": null,
     "id": "26",
     "nombre": "ADMINISTRACIÓN DE RECURSOS",
     "horas": "6",
@@ -353,6 +380,7 @@
     }
   },
   {
+    "nota": null,
     "id": "27",
     "nombre": "INVESTIGACIÓN OPERATIVA",
     "horas": "5",
@@ -366,6 +394,7 @@
     "paraCursar": { "necesitaRegular": ["21", "23"], "necesitaAprobada": ["9"] }
   },
   {
+    "nota": null,
     "id": "28",
     "nombre": "LEGISLACIÓN",
     "horas": "4",
@@ -382,6 +411,7 @@
     }
   },
   {
+    "nota": null,
     "id": "29",
     "nombre": "SIMULACIÓN",
     "horas": "8",
@@ -395,6 +425,7 @@
     "paraCursar": { "necesitaRegular": ["21", "23"], "necesitaAprobada": ["9"] }
   },
   {
+    "nota": null,
     "id": "30",
     "nombre": "REDES DE INFORMACIÓN",
     "horas": "8",
@@ -411,6 +442,7 @@
     }
   },
   {
+    "nota": null,
     "id": "31",
     "nombre": "INGENIERÍA DE SOFTWARE",
     "horas": "6",
@@ -427,6 +459,7 @@
     }
   },
   {
+    "nota": null,
     "id": "32",
     "nombre": "TEORÍA DE CONTROL",
     "horas": "6",
@@ -443,6 +476,7 @@
     }
   },
   {
+    "nota": null,
     "id": "33",
     "nombre": "SISTEMA DISTRIBUIDOS",
     "horas": "8",
@@ -456,6 +490,7 @@
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "34",
     "nombre": "PROYECTO FINAL",
     "horas": "6",
@@ -472,6 +507,7 @@
     }
   },
   {
+    "nota": null,
     "id": "35",
     "nombre": "SISTEMA DE GESTIÓN",
     "horas": "8",
@@ -488,6 +524,7 @@
     }
   },
   {
+    "nota": null,
     "id": "37",
     "nombre": "RELACIONES HUMANAS",
     "horas": "5",
@@ -501,6 +538,7 @@
     "paraCursar": { "necesitaRegular": ["26"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "38",
     "nombre": "TECNOLOGÍAS PARA LA EXPLOTACIÓN DE DATOS",
     "horas": "6",
@@ -517,6 +555,7 @@
     }
   },
   {
+    "nota": null,
     "id": "41",
     "nombre": "SEGURIDAD EN SISTEMAS DE INFORMACIÓN",
     "horas": "5",
@@ -530,6 +569,7 @@
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
   },
   {
+    "nota": null,
     "id": "45",
     "nombre": "CONSOLIDACIÓN DE TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES",
     "horas": "6",
@@ -543,6 +583,7 @@
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["15"] }
   },
   {
+    "nota": null,
     "id": "99",
     "nombre": "PRÁCTICA SUPERVISADA",
     "horas": "7",
@@ -559,6 +600,7 @@
     }
   },
   {
+    "nota": null,
     "id": "36",
     "nombre": "DESARROLLO DE APLICACIONES CLIENTE-SERVIDOR",
     "horas": "5",
@@ -572,6 +614,7 @@
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
   },
   {
+    "nota": null,
     "id": "39",
     "nombre": "ADMINISTRACIÓN GERENCIAL",
     "horas": "6",
@@ -588,6 +631,7 @@
     }
   },
   {
+    "nota": null,
     "id": "40",
     "nombre": "INTELIGENCIA ARTIFICIAL",
     "horas": "6",
@@ -604,6 +648,7 @@
     }
   },
   {
+    "nota": null,
     "id": "42",
     "nombre": "GESTIÓN AVANZADA DE DATOS",
     "horas": "6",
@@ -617,6 +662,7 @@
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
   },
   {
+    "nota": null,
     "id": "43",
     "nombre": "AUDITORÍA DE SISTEMAS DE INFORMACIÓN",
     "horas": "6",
@@ -630,6 +676,7 @@
     "paraCursar": { "necesitaRegular": ["26", "31"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "44",
     "nombre": "EMPRENDEDORISMO",
     "horas": "4",
@@ -643,6 +690,7 @@
     "paraCursar": { "necesitaRegular": ["19"], "necesitaAprobada": [] }
   },
   {
+    "nota": null,
     "id": "47",
     "nombre": "UIT Y LOS ORGANISMOS INTERNACIONALES DE TIC",
     "horas": "3",

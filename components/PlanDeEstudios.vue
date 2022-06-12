@@ -15,7 +15,18 @@
         xl="2"
       >
         <v-card>
-          <v-card-title>{{ año }}° Año</v-card-title>
+          <v-card-title>
+            {{ año }}° Año
+            <v-btn
+              style="margin-left: 10px"
+              small
+              :color="getButtonColor(año)"
+              icon
+              @click="aprobarAño(año)"
+              ><v-icon>mdi-check</v-icon></v-btn
+            >
+          </v-card-title>
+
           <v-card-content>
             <div
               v-for="(cuatrimestre, i) in cuatrimestres"
@@ -144,7 +155,7 @@
                         ></v-select>
 
                         <div v-if="materia.estado === 'APROBADA'">
-                          <v-autocomplete
+                          <v-select
                             dense
                             type="number"
                             :items="[4, 5, 6, 7, 8, 9, 10]"
@@ -160,7 +171,7 @@
                               )
                             "
                             clearable
-                          ></v-autocomplete>
+                          ></v-select>
                         </div>
                       </v-container>
                     </v-expansion-panel-content>
@@ -381,6 +392,22 @@ export default {
       localStorage.setItem(this.dbName, JSON.stringify(this.data));
       this.data = JSON.parse(localStorage.getItem(this.dbName));
       this.actualizarEstadisticas(this.data);
+    },
+    aprobarAño(año) {
+      this.data
+        .filter((materia) => materia.ano === año)
+        .forEach((x) => (x.estado = "APROBADA"));
+      localStorage.setItem(this.dbName, JSON.stringify(this.data));
+      this.data = JSON.parse(localStorage.getItem(this.dbName));
+    },
+    getButtonColor(año) {
+      if (
+        this.data
+          .filter((materia) => materia.ano === año)
+          .every((x) => x.estado === "APROBADA")
+      ) {
+        return "success";
+      }
     },
 
     actualizarEstadisticas(materias) {
