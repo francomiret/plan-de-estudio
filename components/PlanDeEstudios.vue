@@ -1,10 +1,14 @@
 <template>
   <div>
-    <v-card-title>
-      <v-icon style="margin-right: 10px">{{ titleIcon }}</v-icon>
-      {{ title }}</v-card-title
-    >
-    <v-card-subtitle> {{ subtitle }} </v-card-subtitle>
+    <v-card-text>
+      <p class="headline">
+        <v-icon style="margin-right: 10px">{{ titleIcon }}</v-icon>
+        {{ title }}
+      </p>
+      <p class="subtitle-1">
+        {{ subtitle }}
+      </p>
+    </v-card-text>
     <v-row>
       <v-col
         v-for="(año, i) in años"
@@ -241,25 +245,25 @@
               <p class="display-2">
                 {{ cantMateriasAprobadas }}/{{ data.length }}
               </p>
-              <h2>Materias aprobadas</h2>
+              <p class="headline">Materias aprobadas</p>
             </v-col>
             <v-col cols="12" sm="6" md="4">
               <p class="display-2">
                 {{ totalHorasElectivas }}/{{ horasElectivasProp }}
               </p>
-              <h2>Horas electivas</h2>
+              <p class="headline">Horas electivas</p>
             </v-col>
             <v-col cols="12" sm="6" md="4">
               <p class="display-2">{{ totalHorasSemanales }}</p>
-              <h2>Horas semanales cursando</h2>
+              <p class="headline">Horas semanales cursando</p>
             </v-col>
             <v-col cols="12" sm="6" md="6">
               <p class="display-2">{{ progresoTotal }}%</p>
-              <h2>{{ progresoTitle }}</h2>
+              <p class="headline">{{ progresoTitle }}</p>
             </v-col>
             <v-col cols="12" sm="12" md="6">
               <p class="display-2">{{ promedioTotal }}</p>
-              <h2>Promedio</h2>
+              <p class="headline">Promedio</p>
             </v-col>
           </v-row>
         </v-card-text>

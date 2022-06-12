@@ -1,21 +1,33 @@
 <template>
   <v-row>
-    <v-col
-      v-for="(carrera, i) in planes"
-      :key="i"
-      cols="12"
-      sm="8"
-      md="4"
-      l="3"
-      xl="2"
-    >
-      <v-card :color="carrera.color" :to="carrera.to">
-        <v-card-title x-large>
-          <v-icon x-large style="margin: 10px">
-            {{ carrera.icon }}
-          </v-icon>
-          {{ carrera.title }}
-        </v-card-title>
+    <v-col cols="12">
+      <v-card>
+        <v-card-text>
+          <p class="headline">Universidad Tecnológica Nacional</p>
+          <p class="subtitle-2">Facultad Regional Concepción del Uruguay</p>
+        </v-card-text>
+        <v-card-text>
+          <v-row>
+            <v-col
+              v-for="(carrera, i) in utnFrcu"
+              :key="i"
+              cols="12"
+              sm="6"
+              md="3"
+            >
+              <v-card :color="carrera.color" :to="carrera.to">
+                <v-card-text>
+                  <p class="title">
+                    <v-icon style="margin-right: 5px">
+                      {{ carrera.icon }}
+                    </v-icon>
+                    {{ carrera.title }}
+                  </p>
+                </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
+        </v-card-text>
       </v-card>
     </v-col>
   </v-row>
@@ -26,18 +38,30 @@ export default {
   name: "IndexPage",
   data() {
     return {
-      planes: [
+      utnFrcu: [
         {
           to: "/civil-frcu",
-          title: "Ingeniería Civil UTN-FRCU",
+          title: "Ingeniería Civil",
           icon: "mdi-hard-hat",
-          color: "yellow",
+          color: "yellow lighten-2",
+        },
+        {
+          to: "/electro-frcu",
+          title: "Ingeniería Electromecánica",
+          icon: "mdi-cog",
+          color: "red lighten-2",
         },
         {
           to: "/isi-frcu",
-          title: "Ingeniería en Sistema de Información UTN-FRCU",
+          title: "Ingeniería en Sistema de Información",
           icon: "mdi-laptop",
-          color: "green",
+          color: "green lighten-2",
+        },
+        {
+          to: "/loi-frcu",
+          title: "Lisenciatura en Organización Industrial",
+          icon: "mdi-account-group",
+          color: "purple lighten-2",
         },
       ],
     };

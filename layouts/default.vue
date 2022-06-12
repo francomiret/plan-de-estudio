@@ -75,7 +75,7 @@ export default {
       fixed: false,
       items: [
         {
-          action: "mdi-silverware-fork-knife",
+          action: "",
           items: [
             {
               icon: "mdi-hard-hat",
@@ -83,9 +83,19 @@ export default {
               to: "/civil-frcu",
             },
             {
+              icon: "mdi-cog",
+              title: "Electro",
+              to: "/electro-frcu",
+            },
+            {
               icon: "mdi-laptop",
               title: "ISI",
               to: "/isi-frcu",
+            },
+            {
+              icon: "mdi-account-group",
+              title: "LOI",
+              to: "/loi-frcu",
             },
           ],
           title: "UTN-FRCU",
