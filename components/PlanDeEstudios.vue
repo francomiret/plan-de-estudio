@@ -75,7 +75,7 @@
                       </template>
                     </v-expansion-panel-header>
 
-                    <v-expansion-panel-content>
+                    <v-expansion-panel-content class="v-expansion-panel-content__wrap">
                       <v-container
                         v-if="
                           materia.paraCursar.necesitaRegular.length ||
@@ -87,7 +87,7 @@
                             <v-expansion-panel-header
                               >Para cursar necesito
                             </v-expansion-panel-header>
-                            <v-expansion-panel-content>
+                            <v-expansion-panel-content class="v-expansion-panel-content__wrap">
                               <div
                                 style="padding: 0px"
                                 v-if="materia.paraCursar.necesitaRegular.length"
@@ -316,9 +316,6 @@ export default {
 
   methods: {
     getColor(estado) {
-      // const estado = this.data.find(
-      //   (materia) => materia.id === currentMateria.id
-      // ).estado;
       if (estado === "APROBADA") {
         return "success";
       } else if (estado === "REGULAR") {
