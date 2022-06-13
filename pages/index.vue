@@ -18,7 +18,7 @@
               <v-card :color="carrera.color" :to="carrera.to">
                 <v-card-text>
                   <p class="title">
-                    <v-icon style="margin-right: 5px">
+                    <v-icon>
                       {{ carrera.icon }}
                     </v-icon>
                     {{ carrera.title }}

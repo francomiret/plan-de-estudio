@@ -2,7 +2,7 @@
   <div>
     <v-card-text>
       <p class="headline">
-        <v-icon style="margin-right: 10px">{{ titleIcon }}</v-icon>
+        <v-icon>{{ titleIcon }}</v-icon>
         {{ title }}
       </p>
       <p class="subtitle-1">
