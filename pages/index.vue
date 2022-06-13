@@ -59,7 +59,7 @@ export default {
         },
         {
           to: "/loi-frcu",
-          title: "Lisenciatura en Organización Industrial",
+          title: "Licenciatura en Organización Industrial",
           icon: "mdi-account-group",
           color: "purple lighten-2",
         },
