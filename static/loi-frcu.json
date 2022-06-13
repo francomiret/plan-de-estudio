@@ -1,0 +1,546 @@
+[
+  {
+    "nota": null,
+    "id": "4",
+    "nombre": "ORGANIZACIÓN INDUSTRIAL I",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "1",
+    "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+    "horas": "9",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "2",
+    "nombre": "INFORMÁTICA I",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "3",
+    "nombre": "QUÍMICA",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+
+  {
+    "nota": null,
+    "id": "5",
+    "nombre": "ECONOMÍA GENERAL",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "6",
+    "nombre": "FÍSICA",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "7",
+    "nombre": "ANÁLISIS MATEMÁTICO",
+    "horas": "9",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "8",
+    "nombre": "INGLÉS I",
+    "horas": "2",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "9",
+    "nombre": "INGLÉS II",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["8"] }
+  },
+  {
+    "nota": null,
+    "id": "10",
+    "nombre": "CONOCIMIENTO DE MATERIALES",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["3", "6"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "11",
+    "nombre": "COSTOS",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["2", "5"], "necesitaAprobada": [] }
+  },
+
+  {
+    "nota": null,
+    "id": "12",
+    "nombre": "INFORMÁTICA II",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["2"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "13",
+    "nombre": "ORGANIZACIÓN INDUSTRIAL II",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["4", "5"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "14",
+    "nombre": "PROBABILIDAD Y ESTADÍSTICA",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "15",
+    "nombre": "COMERCIALIZACIÓN",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["2", "14"],
+      "necesitaAprobada": ["1", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "16",
+    "nombre": "ESTUDIO DEL TRABAJO",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["2", "5"] }
+  },
+  {
+    "nota": null,
+    "id": "17",
+    "nombre": "PROCESOS INDUSTRIALES",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["4", "10"],
+      "necesitaAprobada": ["3", "6"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "18",
+    "nombre": "INVESTIGACIÓN OPERATIVA",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["14"], "necesitaAprobada": ["1", "7"] }
+  },
+
+  {
+    "nota": null,
+    "id": "19",
+    "nombre": "ECONOMÍA DE LA EMPRESA",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["2", "5"],
+      "necesitaAprobada": []
+    }
+  },
+  {
+    "nota": null,
+    "id": "20",
+    "nombre": "ORGANIZACIÓN INDUSTRIAL III ",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["13"],
+      "necesitaAprobada": ["4", "5", "8", "18"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "21",
+    "nombre": "LEGISLACIÓN",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": [],
+      "necesitaAprobada": []
+    }
+  },
+  {
+    "nota": null,
+    "id": "22",
+    "nombre": "SISTEMAS Y MÉTODOS ADMINISTRATIVOS",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["12", "13"],
+      "necesitaAprobada": ["4", "5", "18"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "23",
+    "nombre": "PLANIFICACIÓN Y CONTROL DE LA PRODUCCIÓN",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["16", "18"],
+      "necesitaAprobada": ["11", "14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "26",
+    "nombre": "INGENIERÍA DE CALIDAD",
+    "horas": "5",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["17"],
+      "necesitaAprobada": ["4", "10", "14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "24",
+    "nombre": "ANÁLISIS DE ESTADOS CONTABLES",
+    "horas": "9",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["13"], "necesitaAprobada": ["4", "5"] }
+  },
+  {
+    "nota": null,
+    "id": "25",
+    "nombre": "SEGURIDAD, HIGIENE E INGENIERÍA AMBIENTAL",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["16", "17", "21"],
+      "necesitaAprobada": ["4", "10", "11"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "27",
+    "nombre": "COMERCIO EXTERIOR",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["19", "26"],
+      "necesitaAprobada": ["11", "15", "17", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "28",
+    "nombre": "EVALUACIÓN DE PROYECTO",
+    "horas": "9",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["19", "20", "23"],
+      "necesitaAprobada": ["9", "11", "13", "15", "16", "18"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "29",
+    "nombre": "GESTIÓN DE PYMES",
+    "horas": "9",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23", "25"],
+      "necesitaAprobada": ["13", "16", "17", "18", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "30",
+    "nombre": "PROYECTO FINAL",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23", "25"],
+      "necesitaAprobada": ["13", "16", "17", "18", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "99",
+    "nombre": "PRÁCTICA SUPERVISADA",
+    "horas": "180",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23", "25"],
+      "necesitaAprobada": ["13", "16", "17", "18", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "31",
+    "nombre": "RELACIONES INDUSTRIALES",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["23", "25"],
+      "necesitaAprobada": ["16", "17", "18", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "32",
+    "nombre": "CONTROL DE GESTIÓN",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23"],
+      "necesitaAprobada": ["13", "16", "18"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "33",
+    "nombre": "FLUJO DE INSUMOS Y PRODUCTOS",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23", "25"],
+      "necesitaAprobada": ["13", "16", "17", "18", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "34",
+    "nombre": "SEMINARIO DE PLANEAMIENTO ESTRATÉGICO",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23", "25"],
+      "necesitaAprobada": ["13", "16", "17", "18", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "35",
+    "nombre": "EMPRENDEDORISMO",
+    "horas": "4",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23", "25"],
+      "necesitaAprobada": ["13", "16", "17", "18", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "36",
+    "nombre": "GESTIÓN DE LA RESPONSABILIDAD SOCIAL EN LAS ORGANIZACIONES",
+    "horas": "4",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["13", "21", "25"],
+      "necesitaAprobada": ["5"]
+    }
+  }
+]

@@ -158,7 +158,7 @@
   {
     "nota": null,
     "id": "12",
-    "nombre": "SINTAXIS Y SEMÁNTICA DE LENGUAJES",
+    "nombre": "SINTAXIS Y SEMÁNTICA DE LOS LENGUAJES",
     "horas": "8",
     "ano": "2",
     "cuatrimestre": "1",
@@ -177,7 +177,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["4", "7"], "necesitaAprobada": [] }
@@ -191,7 +190,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["4", "7", "8"], "necesitaAprobada": [] }
@@ -205,7 +203,6 @@
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["13"] }
@@ -219,7 +216,6 @@
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
-
     "integradora": true,
     "electiva": false,
     "paraCursar": {
@@ -236,7 +232,6 @@
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["9"], "necesitaAprobada": ["1", "3"] }
@@ -250,7 +245,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -267,7 +261,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["11"], "necesitaAprobada": ["2", "7"] }
@@ -281,7 +274,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -298,7 +290,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -315,7 +306,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
@@ -329,7 +319,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
@@ -343,7 +332,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["2"] }
@@ -357,7 +345,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["12", "14"], "necesitaAprobada": ["7"] }
@@ -371,7 +358,6 @@
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
-
     "integradora": true,
     "electiva": false,
     "paraCursar": {
@@ -388,7 +374,6 @@
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["21", "23"], "necesitaAprobada": ["9"] }
@@ -402,7 +387,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -419,7 +403,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": ["21", "23"], "necesitaAprobada": ["9"] }
@@ -433,7 +416,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -450,7 +432,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -467,7 +448,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -484,7 +464,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": [] }
@@ -498,7 +477,6 @@
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
-
     "integradora": true,
     "electiva": false,
     "paraCursar": {
@@ -515,7 +493,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -532,7 +509,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["26"], "necesitaAprobada": [] }
@@ -546,7 +522,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": {
@@ -563,7 +538,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
@@ -577,7 +551,6 @@
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["15"] }
@@ -586,12 +559,11 @@
     "nota": null,
     "id": "99",
     "nombre": "PRÁCTICA SUPERVISADA",
-    "horas": "7",
+    "horas": "200",
     "ano": "5",
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -608,7 +580,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
@@ -622,7 +593,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -639,7 +609,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": {
@@ -656,7 +625,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["30"], "necesitaAprobada": ["20"] }
@@ -670,7 +638,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["26", "31"], "necesitaAprobada": [] }
@@ -684,7 +651,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": { "necesitaRegular": ["19"], "necesitaAprobada": [] }
@@ -698,7 +664,6 @@
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": true,
     "paraCursar": {

@@ -6,7 +6,7 @@
     progresoTitle="Ingeniero/a"
     dbName="materiasElectro"
     :materiasProp="materias"
-    :horasElectivasProp="44"
+    :horasElectivasProp="28"
   />
 </template>
 

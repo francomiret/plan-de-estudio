@@ -6,7 +6,7 @@
     progresoTitle="Licenciado/a"
     dbName="materiasLoi"
     :materiasProp="materias"
-    :horasElectivasProp="44"
+    :horasElectivasProp="21"
   />
 </template>
 

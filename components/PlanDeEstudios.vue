@@ -10,15 +10,7 @@
       </p>
     </v-card-text>
     <v-row>
-      <v-col
-        v-for="(año, i) in años"
-        :key="i"
-        cols="12"
-        sm="6"
-        md="4"
-        l="3"
-        xl="2"
-      >
+      <v-col v-for="(año, i) in años" :key="i" cols="12" sm="6" md="4" xl="3">
         <v-card>
           <v-card-title>
             {{ año }}° Año
@@ -68,7 +60,7 @@
                           </template>
                         </v-col>
                         <v-col cols="4">
-                          <strong>{{ materia.horas }} hs.</strong></v-col
+                          <strong>{{ materia.horas }} hs</strong></v-col
                         >
                       </v-row>
 
@@ -337,28 +329,33 @@ export default {
     },
 
     progreso(materias) {
-      if (materias.length) {
-        let horasObligatorias = 0;
-        materias
-          .filter((x) => x.electiva !== true)
-          .map((x) => parseInt(x.horas))
-          .forEach((x) => (horasObligatorias += x));
-        let horasObligatoriasAprobadas = 0;
-        materias
-          .filter((x) => x.electiva !== true && x.estado === "APROBADA")
-          .map((x) => parseInt(x.horas))
-          .forEach((x) => (horasObligatoriasAprobadas += x));
-        const horasElectivasAprobadas =
-          this.totalHorasElectivas > this.horasElectivasProp
-            ? this.horasElectivasProp
-            : this.totalHorasElectivas;
-        const horasTotalesMinimas = horasObligatorias + this.horasElectivasProp;
-        this.progresoTotal = (
-          ((horasObligatoriasAprobadas + horasElectivasAprobadas) /
-            horasTotalesMinimas) *
-          100
-        ).toFixed(2);
+      let horasObligatorias = 0;
+      const horasPS = materias.find((x) => x.id === "99").horas / 32;
+      materias
+        .filter((x) => x.electiva !== true && x.id !== "99")
+        .map((x) => parseInt(x.horas))
+        .forEach((x) => (horasObligatorias += x));
+      let horasObligatoriasAprobadas = 0;
+      materias
+        .filter(
+          (x) => x.electiva !== true && x.estado === "APROBADA" && x.id !== "99"
+        )
+        .map((x) => parseInt(x.horas))
+        .forEach((x) => (horasObligatoriasAprobadas += x));
+      const horasElectivasAprobadas =
+        this.totalHorasElectivas > this.horasElectivasProp
+          ? this.horasElectivasProp
+          : this.totalHorasElectivas;
+      const horasTotalesMinimas =
+        horasObligatorias + horasPS + this.horasElectivasProp;
+      if (materias.find((x) => x.id === "99").estado === "APROBADA") {
+        horasObligatoriasAprobadas += horasPS;
       }
+      this.progresoTotal = (
+        ((horasObligatoriasAprobadas + horasElectivasAprobadas) /
+          horasTotalesMinimas) *
+        100
+      ).toFixed(2);
     },
 
     cantidadMateriasAprobadas(materias) {

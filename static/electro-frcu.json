@@ -1,8 +1,8 @@
 [
   {
     "nota": null,
-    "id": "4",
-    "nombre": "INGENIERÍA CIVIL I",
+    "id": "2",
+    "nombre": "INGENIERÍA ELECTROMECÁNICA I",
     "horas": "3",
     "ano": "1",
     "cuatrimestre": "0",
@@ -27,19 +27,6 @@
   },
   {
     "nota": null,
-    "id": "2",
-    "nombre": "INGENIERÍA Y SOCIEDAD",
-    "horas": "4",
-    "ano": "1",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
-  },
-  {
-    "nota": null,
     "id": "3",
     "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
     "horas": "10",
@@ -54,12 +41,25 @@
 
   {
     "nota": null,
-    "id": "5",
+    "id": "4",
     "nombre": "SISTEMAS DE REPRESENTACIÓN",
-    "horas": "3",
+    "horas": "6",
     "ano": "1",
-    "cuatrimestre": "0",
-    "esAnual": true,
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "5",
+    "nombre": "QUÍMICA GENERAL",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
@@ -68,13 +68,12 @@
   {
     "nota": null,
     "id": "6",
-    "nombre": "QUÍMICA GENERAL",
+    "nombre": "FÍSICA I",
     "horas": "10",
     "ano": "1",
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
@@ -82,13 +81,12 @@
   {
     "nota": null,
     "id": "7",
-    "nombre": "FÍSICA I",
-    "horas": "10",
+    "nombre": "INGENIERÍA Y SOCIEDAD",
+    "horas": "4",
     "ano": "1",
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
@@ -96,13 +94,12 @@
   {
     "nota": null,
     "id": "8",
-    "nombre": "FUNDAMENTOS DE INFORMÁTICA",
-    "horas": "4",
+    "nombre": "REPRESENTACIÓN GRÁFICA",
+    "horas": "6",
     "ano": "1",
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
-
     "integradora": false,
     "electiva": false,
     "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
@@ -111,18 +108,31 @@
     "nota": null,
     "id": "9",
     "nombre": "ESTABILIDAD",
-    "horas": "10",
+    "horas": "6",
     "ano": "2",
     "cuatrimestre": "0",
     "esAnual": true,
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
-    "paraCursar": { "necesitaRegular": ["1", "3", "7"], "necesitaAprobada": [] }
+    "paraCursar": { "necesitaRegular": ["1", "3", "6"], "necesitaAprobada": [] }
   },
   {
     "nota": null,
     "id": "10",
+    "nombre": "INGENIERÍA ELECTROMECÁNICA II",
+    "horas": "3",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "2", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "11",
     "nombre": "ANÁLISIS MATEMÁTICO II",
     "horas": "10",
     "ano": "2",
@@ -135,29 +145,16 @@
   },
   {
     "nota": null,
-    "id": "11",
-    "nombre": "TECNOLOGÍA DE LOS MATERIALES",
-    "horas": "4",
+    "id": "12",
+    "nombre": "PROBABILIDAD Y ESTADÍSTICA",
+    "horas": "6",
     "ano": "2",
-    "cuatrimestre": "0",
-    "esAnual": true,
+    "cuatrimestre": "1",
+    "esAnual": false,
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
-    "paraCursar": { "necesitaRegular": ["6", "7"], "necesitaAprobada": [] }
-  },
-  {
-    "nota": null,
-    "id": "12",
-    "nombre": "INGENIERÍA CIVIL II",
-    "horas": "3",
-    "ano": "2",
-    "cuatrimestre": "0",
-    "esAnual": true,
-    "estado": "DESAPROBADA",
-    "integradora": true,
-    "electiva": false,
-    "paraCursar": { "necesitaRegular": ["4", "7"], "necesitaAprobada": [] }
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
   },
   {
     "nota": null,
@@ -175,19 +172,6 @@
   {
     "nota": null,
     "id": "14",
-    "nombre": "GEOLOGÍA APLICADA",
-    "horas": "4",
-    "ano": "2",
-    "cuatrimestre": "2",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": true,
-    "paraCursar": { "necesitaRegular": ["4", "6", "7"], "necesitaAprobada": [] }
-  },
-  {
-    "nota": null,
-    "id": "15",
     "nombre": "FÍSICA II",
     "horas": "10",
     "ano": "2",
@@ -196,25 +180,38 @@
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
-    "paraCursar": { "necesitaRegular": ["1", "7"], "necesitaAprobada": [] }
+    "paraCursar": { "necesitaRegular": ["1", "6"], "necesitaAprobada": [] }
   },
   {
     "nota": null,
-    "id": "16",
-    "nombre": "PROBABILIDAD Y ESTADÍSTICA",
-    "horas": "6",
+    "id": "15",
+    "nombre": "CONOCIMIENTO DE MATERIALES",
+    "horas": "8",
     "ano": "2",
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
+    "paraCursar": { "necesitaRegular": ["5"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "16",
+    "nombre": "PROGRAMACIÓN EN COMPUTACIÓN",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
     "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
   },
   {
     "nota": null,
     "id": "17",
-    "nombre": "HIDRÁULICA GENERAL Y APLICADA",
+    "nombre": "TECNOLOGÍA MECÁNICA",
     "horas": "10",
     "ano": "3",
     "cuatrimestre": "1",
@@ -223,31 +220,15 @@
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["9", "10"],
-      "necesitaAprobada": ["1", "3", "5", "7"]
+      "necesitaRegular": ["14", "15"],
+      "necesitaAprobada": ["1", "4", "5", "6", "8"]
     }
   },
   {
     "nota": null,
     "id": "18",
-    "nombre": "TECNOLOGÍA DEL HORMIGÓN",
-    "horas": "4",
-    "ano": "3",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["11", "16"],
-      "necesitaAprobada": ["1", "3", "5", "6", "7"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "19",
-    "nombre": "TECNOLOGÍA DE LA CONSTRUCCIÓN",
-    "horas": "6",
+    "nombre": "INGENIERÍA ELECTROMECÁNICA III",
+    "horas": "3",
     "ano": "3",
     "cuatrimestre": "0",
     "esAnual": true,
@@ -255,8 +236,57 @@
     "integradora": true,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["9", "11", "12"],
-      "necesitaAprobada": ["1", "3", "4", "5", "6", "7", "8"]
+      "necesitaRegular": ["10", "11", "14"],
+      "necesitaAprobada": ["1", "2", "3", "4", "6"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "19",
+    "nombre": "ELECTROTECNIA",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "14"],
+      "necesitaAprobada": ["1", "3", "4", "6"]
+    }
+  },
+
+  {
+    "nota": null,
+    "id": "20",
+    "nombre": "TERMODINÁMICA TÉCNICA",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["14"],
+      "necesitaAprobada": ["1", "4", "6"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "21",
+    "nombre": "MATEMÁTICA PARA INGENIERÍA ELECTROMECÁNICA",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11"],
+      "necesitaAprobada": ["1", "3", "4"]
     }
   },
   {
@@ -275,52 +305,23 @@
   {
     "nota": null,
     "id": "23",
-    "nombre": "RESISTENCIA DE MATERIALES",
+    "nombre": "MECÁNICA Y MECANISMOS",
     "horas": "8",
     "ano": "3",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["9"],
-      "necesitaAprobada": ["1", "3", "5", "7"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "20",
-    "nombre": "CÁLCULO AVANZADO",
-    "horas": "4",
-    "ano": "3",
     "cuatrimestre": "2",
     "esAnual": false,
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["10"],
-      "necesitaAprobada": ["1", "3", "5"]
+      "necesitaRegular": ["8", "9", "11"],
+      "necesitaAprobada": ["1", "3", "4", "6"]
     }
-  },
-  {
-    "nota": null,
-    "id": "21",
-    "nombre": "ECONOMÍA",
-    "horas": "6",
-    "ano": "3",
-    "cuatrimestre": "2",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": { "necesitaRegular": ["12"], "necesitaAprobada": ["2", "5"] }
   },
   {
     "nota": null,
     "id": "24",
-    "nombre": "INSTALACIONES ELÉCTRICAS Y ACÚSTICAS",
+    "nombre": "HIGIENE Y SEGURIDAD INDUSTRIAL",
     "horas": "4",
     "ano": "3",
     "cuatrimestre": "2",
@@ -329,63 +330,63 @@
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["11", "15"],
-      "necesitaAprobada": ["1", "5", "6", "7"]
+      "necesitaRegular": ["14"],
+      "necesitaAprobada": ["1", "4", "5", "6", "7"]
     }
   },
   {
     "nota": null,
     "id": "25",
-    "nombre": "GEOTOPOGRAFÍA",
-    "horas": "8",
-    "ano": "3",
-    "cuatrimestre": "2",
-    "esAnual": false,
+    "nombre": "ELEMENTOS DE MÁQUINAS",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
     "estado": "DESAPROBADA",
-    "integradora": false,
+    "integradora": true,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["10", "15"],
-      "necesitaAprobada": ["1", "3", "5", "7"]
+      "necesitaRegular": ["17", "18", "23"],
+      "necesitaAprobada": ["9", "10", "11", "13", "14", "15", "16"]
     }
   },
   {
     "nota": null,
     "id": "26",
-    "nombre": "INSTALACIONES TERMOMECÁNICAS",
-    "horas": "4",
-    "ano": "3",
-    "cuatrimestre": "2",
-    "esAnual": false,
+    "nombre": "MECÁNICA DE LOS FLUIDOS Y MÁQUINAS FLUIDODINÁMICAS",
+    "horas": "5",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["11", "15"],
-      "necesitaAprobada": ["1", "5", "6", "7"]
+      "necesitaRegular": ["20", "23"],
+      "necesitaAprobada": ["9", "11", "14", "16"]
     }
   },
   {
     "nota": null,
     "id": "27",
-    "nombre": "INSTALACIONES SANITARIAS Y DE GAS",
-    "horas": "6",
+    "nombre": "MÁQUINAS ELÉCTRICAS",
+    "horas": "5",
     "ano": "4",
-    "cuatrimestre": "1",
-    "esAnual": false,
+    "cuatrimestre": "0",
+    "esAnual": true,
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["11", "17"],
-      "necesitaAprobada": ["6", "7", "9", "10"]
+      "necesitaRegular": ["19"],
+      "necesitaAprobada": ["14"]
     }
   },
   {
     "nota": null,
     "id": "28",
-    "nombre": "ESTRUCTURAS DE HORMIGÓN",
-    "horas": "10",
+    "nombre": "MEDICIONES ELÉCTRICAS",
+    "horas": "8",
     "ano": "4",
     "cuatrimestre": "1",
     "esAnual": false,
@@ -393,78 +394,30 @@
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["18", "19", "23"],
-      "necesitaAprobada": ["9", "11", "12", "16"]
+      "necesitaRegular": ["19", "21"],
+      "necesitaAprobada": ["11", "14"]
     }
   },
   {
     "nota": null,
     "id": "29",
-    "nombre": "DISEÑO ARQUITECTÓNICO, PLANEAMIENTO Y URBANISMO",
-    "horas": "5",
+    "nombre": "MÁQUINAS TÉRMICAS",
+    "horas": "10",
     "ano": "4",
-    "cuatrimestre": "0",
-    "esAnual": true,
+    "cuatrimestre": "1",
+    "esAnual": false,
     "estado": "DESAPROBADA",
-    "integradora": true,
+    "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["19"],
-      "necesitaAprobada": ["9", "11", "12", "13"]
+      "necesitaRegular": ["20"],
+      "necesitaAprobada": ["14"]
     }
   },
   {
     "nota": null,
     "id": "30",
-    "nombre": "ANÁLISIS ESTRUCTURAL I",
-    "horas": "10",
-    "ano": "4",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["12", "23"],
-      "necesitaAprobada": ["4", "7", "9"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "31",
-    "nombre": "GEOTECNIA",
-    "horas": "10",
-    "ano": "4",
-    "cuatrimestre": "2",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["17", "19", "23"],
-      "necesitaAprobada": ["9", "10", "11", "12"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "32",
-    "nombre": "HIDROLOGÍA Y OBRAS HIDRÁULICAS",
-    "horas": "8",
-    "ano": "4",
-    "cuatrimestre": "2",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["17", "19", "25"],
-      "necesitaAprobada": ["9", "10", "11", "12", "15"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "33",
-    "nombre": "INGENIERÍA LEGAL",
+    "nombre": "ELECTRÓNICA INDUSTRIAL",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -473,15 +426,121 @@
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["12"],
-      "necesitaAprobada": ["2"]
+      "necesitaRegular": ["19"],
+      "necesitaAprobada": ["14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "31",
+    "nombre": "ECONOMÍA",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["10"], "necesitaAprobada": ["7"] }
+  },
+  {
+    "nota": null,
+    "id": "32",
+    "nombre": "LEGISLACIÓN",
+    "horas": "4",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["10"], "necesitaAprobada": ["7"] }
+  },
+  {
+    "nota": null,
+    "id": "33",
+    "nombre": "DISEÑO Y FABRICACIÓN ASISTIDO POR COMPUTADORA",
+    "horas": "4",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["15", "17", "23"],
+      "necesitaAprobada": ["9", "11", "14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "48",
+    "nombre": "INGENIERÍA DE SUPERFICIES",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": [],
+      "necesitaAprobada": ["6", "14", "15"]
     }
   },
   {
     "nota": null,
     "id": "34",
-    "nombre": "ORGANIZACIÓN Y CONDCCIÓN DE OBRAS",
+    "nombre": "REDES DE DISTRIBUCIÓN E INSTALACIONES ELÉCTRICAS",
     "horas": "5",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["27", "28"],
+      "necesitaAprobada": ["19"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "35",
+    "nombre": "ORGANIZACIÓN INDUSTRIAL",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["31", "32"],
+      "necesitaAprobada": ["10", "12"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "36",
+    "nombre": "AUTOMATIZACIÓN Y CONTROL INDUSTRIAL",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["21", "26", "27", "28", "30"],
+      "necesitaAprobada": ["19", "20", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "37",
+    "nombre": "PROYECTO FINAL",
+    "horas": "3",
     "ano": "5",
     "cuatrimestre": "0",
     "esAnual": true,
@@ -489,31 +548,15 @@
     "integradora": true,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["21", "24", "26", "27", "28", "29"],
-      "necesitaAprobada": ["12", "13", "17", "19", "22", "23"]
+      "necesitaRegular": ["25", "26", "27", "29"],
+      "necesitaAprobada": ["13", "17", "19", "20", "21", "22", "23", "24"]
     }
   },
   {
     "nota": null,
-    "id": "35",
-    "nombre": "VÍAS DE COMUNICACIÓN I",
+    "id": "38",
+    "nombre": "MÁQUINAS DE ELEVACIÓN Y TRANSPORTE",
     "horas": "8",
-    "ano": "5",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["25"],
-      "necesitaAprobada": ["10", "15"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "37",
-    "nombre": "ELASTICIDAD Y PLASTICIDAD",
-    "horas": "6",
     "ano": "5",
     "cuatrimestre": "1",
     "esAnual": false,
@@ -521,14 +564,14 @@
     "integradora": false,
     "electiva": true,
     "paraCursar": {
-      "necesitaRegular": ["10", "20"],
-      "necesitaAprobada": ["1", "3", "9", "23"]
+      "necesitaRegular": ["25", "26"],
+      "necesitaAprobada": ["17", "18", "20", "23"]
     }
   },
   {
     "nota": null,
-    "id": "38",
-    "nombre": "PREFABRICACIÓN",
+    "id": "39",
+    "nombre": "ELECTRÓNICA DE POTENCIA",
     "horas": "4",
     "ano": "5",
     "cuatrimestre": "1",
@@ -537,29 +580,29 @@
     "integradora": false,
     "electiva": true,
     "paraCursar": {
-      "necesitaRegular": ["11", "28"],
-      "necesitaAprobada": ["19"]
+      "necesitaRegular": ["28", "30"],
+      "necesitaAprobada": ["19", "21"]
     }
   },
   {
     "nota": null,
-    "id": "39",
-    "nombre": "CIMENTACIONES",
+    "id": "40",
+    "nombre": "INTRODUCCIÓN AL PROYECTO DE INSTALACIONES INDUSTRIALES",
     "horas": "6",
     "ano": "5",
     "cuatrimestre": "1",
     "esAnual": false,
     "estado": "DESAPROBADA",
     "integradora": false,
-    "electiva": false,
+    "electiva": true,
     "paraCursar": {
-      "necesitaRegular": ["28", "31"],
-      "necesitaAprobada": ["17", "18", "19", "23"]
+      "necesitaRegular": [],
+      "necesitaAprobada": ["19", "20", "21", "23"]
     }
   },
   {
     "nota": null,
-    "id": "48",
+    "id": "46",
     "nombre": "AMBIENTAL",
     "horas": "4",
     "ano": "5",
@@ -569,8 +612,8 @@
     "integradora": false,
     "electiva": true,
     "paraCursar": {
-      "necesitaRegular": [],
-      "necesitaAprobada": ["21", "29", "33"]
+      "necesitaRegular": ["31", "32"],
+      "necesitaAprobada": ["24"]
     }
   },
   {
@@ -585,14 +628,31 @@
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["28", "29", "32", "33"],
-      "necesitaAprobada": ["12", "16", "17", "19", "20", "23"]
+      "necesitaRegular": ["25", "26", "27", "29"],
+      "necesitaAprobada": ["17", "19", "20", "21", "22", "23", "24"]
     }
   },
   {
     "nota": null,
-    "id": "36",
-    "nombre": "ANÁLISIS ESTRUCTURAL II",
+    "id": "41",
+    "nombre": "INSTALACIONES TÉRMINCAS, MECÁNICAS Y FRIGORÍFICAS",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "29"],
+      "necesitaAprobada": ["20", "23"]
+    }
+  },
+
+  {
+    "nota": null,
+    "id": "42",
+    "nombre": "CENTRALES Y SISTEMAS DE TRANSMISIÓN",
     "horas": "10",
     "ano": "5",
     "cuatrimestre": "2",
@@ -601,30 +661,14 @@
     "integradora": false,
     "electiva": false,
     "paraCursar": {
-      "necesitaRegular": ["28", "30"],
-      "necesitaAprobada": ["18", "19", "20", "23"]
+      "necesitaRegular": ["26", "27", "28", "29"],
+      "necesitaAprobada": ["19", "20", "21", "23"]
     }
   },
   {
     "nota": null,
-    "id": "40",
-    "nombre": "VÍAS DE COMUNICACIÓN II",
-    "horas": "8",
-    "ano": "5",
-    "cuatrimestre": "2",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["31", "35"],
-      "necesitaAprobada": ["17", "19", "23", "25"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "42",
-    "nombre": "ANÁLISIS ESTRUCTURAL III",
+    "id": "43",
+    "nombre": "HIDRODINÁMICA Y NEUMÁTICA",
     "horas": "4",
     "ano": "5",
     "cuatrimestre": "2",
@@ -633,15 +677,15 @@
     "integradora": false,
     "electiva": true,
     "paraCursar": {
-      "necesitaRegular": ["37"],
-      "necesitaAprobada": ["30"]
+      "necesitaRegular": ["26"],
+      "necesitaAprobada": ["20", "23"]
     }
   },
   {
     "nota": null,
-    "id": "43",
-    "nombre": "DISEÑO ARQUITECTÓNICO Y DE PLANEAMIENTO II",
-    "horas": "3",
+    "id": "44",
+    "nombre": "AUTOMATISMOS",
+    "horas": "8",
     "ano": "5",
     "cuatrimestre": "2",
     "esAnual": false,
@@ -649,13 +693,45 @@
     "integradora": false,
     "electiva": true,
     "paraCursar": {
-      "necesitaRegular": ["29"],
-      "necesitaAprobada": ["19"]
+      "necesitaRegular": ["36", "39"],
+      "necesitaAprobada": ["19", "20", "21", "23"]
     }
   },
   {
     "nota": null,
-    "id": "98",
+    "id": "45",
+    "nombre": "INSTALACIONES INDUSTRIALES REGIONALES",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["40"],
+      "necesitaAprobada": ["19", "20", "21", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "47",
+    "nombre": "EMPRENDEDORISMO",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["35"],
+      "necesitaAprobada": ["31", "32"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "49",
     "nombre": "INTRODUCCIÓN A LA INVESTIGACIÓN CIENTÍFICA",
     "horas": "4",
     "ano": "5",
@@ -664,99 +740,6 @@
     "estado": "DESAPROBADA",
     "integradora": false,
     "electiva": true,
-    "paraCursar": { "necesitaRegular": ["21", "33"], "necesitaAprobada": [] }
-  },
-  {
-    "nota": null,
-    "id": "49",
-    "nombre": "GESTIÓN DE LA RESPONSABILIDAD SOCIAL EN LAS ORGANIZACIONES",
-    "horas": "4",
-    "ano": "5",
-    "cuatrimestre": "2",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": true,
-    "paraCursar": { "necesitaRegular": ["21", "33"], "necesitaAprobada": [] }
-  },
-  {
-    "nota": null,
-    "id": "41",
-    "nombre": "PROYECTO FINAL",
-    "horas": "6",
-    "ano": "6",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": true,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["28", "29", "32", "33"],
-      "necesitaAprobada": ["12", "16", "17", "19", "20", "23"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "44",
-    "nombre": "CONSTRUCCIONES METÁLICAS Y DE MADERA",
-    "horas": "8",
-    "ano": "6",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["30"],
-      "necesitaAprobada": ["12", "23"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "45",
-    "nombre": "INGENIERÍA SANITARIA",
-    "horas": "6",
-    "ano": "6",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": false,
-    "paraCursar": {
-      "necesitaRegular": ["32"],
-      "necesitaAprobada": ["17", "19", "25"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "46",
-    "nombre": "PUENTES",
-    "horas": "4",
-    "ano": "6",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": true,
-    "paraCursar": {
-      "necesitaRegular": ["36", "39"],
-      "necesitaAprobada": ["19", "28"]
-    }
-  },
-  {
-    "nota": null,
-    "id": "47",
-    "nombre": "OBRAS FLUVIALES Y MARÍTIMAS",
-    "horas": "5",
-    "ano": "6",
-    "cuatrimestre": "1",
-    "esAnual": false,
-    "estado": "DESAPROBADA",
-    "integradora": false,
-    "electiva": true,
-    "paraCursar": {
-      "necesitaRegular": ["36", "39"],
-      "necesitaAprobada": ["17"]
-    }
+    "paraCursar": { "necesitaRegular": ["10"], "necesitaAprobada": ["7"] }
   }
 ]
