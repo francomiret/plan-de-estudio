@@ -383,7 +383,7 @@ export default {
 
     materiasAprobadas(materia) {
       const materiasAprobadas = [];
-      materia.paraCursar.necesitaRegular.forEach((element) => {
+      materia.paraCursar.necesitaAprobada.forEach((element) => {
         materiasAprobadas.push(this.data.find((x) => x.id === element));
       });
       return materiasAprobadas;
