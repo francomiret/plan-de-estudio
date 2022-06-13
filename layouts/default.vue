@@ -1,12 +1,6 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="drawer"
-      :mini-variant="miniVariant"
-      :clipped="clipped"
-      fixed
-      app
-    >
+  <v-app>
+    <v-navigation-drawer v-model="drawer" app>
       <v-list>
         <v-list-group
           v-for="item in items"
@@ -35,7 +29,7 @@
         </v-list-group>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar :clipped-left="clipped" fixed app>
+    <v-app-bar dark :clipped-left="clipped" fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-btn to="/" icon>
         <v-icon>mdi-home</v-icon>
@@ -109,3 +103,8 @@ export default {
   },
 };
 </script>
+<style>
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+}
+</style>

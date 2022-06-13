@@ -1,3 +1,8 @@
+<style>
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+}
+</style>
 <template>
   <div>
     <v-card-text>
@@ -89,7 +94,6 @@
                             </v-expansion-panel-header>
                             <v-expansion-panel-content>
                               <div
-                                style="padding: 0px"
                                 v-if="materia.paraCursar.necesitaRegular.length"
                               >
                                 <v-card-subtitle style="color: orangered"
@@ -263,11 +267,6 @@
     </v-footer>
   </div>
 </template>
-<style>
-.v-expansion-panel-content__wrap {
-  padding: 0px;
-}
-</style>
 <script>
 export default {
   props: {
