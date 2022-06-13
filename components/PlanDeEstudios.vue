@@ -1,8 +1,3 @@
-<style>
-.v-expansion-panel-content__wrap {
-  padding: 0px;
-}
-</style>
 <template>
   <div>
     <v-card-text>
@@ -496,3 +491,8 @@ export default {
   },
 };
 </script>
+<style>
+.v-expansion-panel-content__wrap {
+  padding: 0px;
+}
+</style>
