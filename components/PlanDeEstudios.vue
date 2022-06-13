@@ -321,7 +321,10 @@ export default {
 
     progreso(materias) {
       let horasObligatorias = 0;
-      const horasPS = materias.find((x) => x.id === "99").horas / 32;
+      let horasPS = 0;
+      if (materias.find((x) => x.id === "99")) {
+        horasPS = materias.find((x) => x.id === "99").horas / 32;
+      }
       materias
         .filter((x) => x.electiva !== true && x.id !== "99")
         .map((x) => parseInt(x.horas))
@@ -339,7 +342,10 @@ export default {
           : this.totalHorasElectivas;
       const horasTotalesMinimas =
         horasObligatorias + horasPS + this.horasElectivasProp;
-      if (materias.find((x) => x.id === "99").estado === "APROBADA") {
+      if (
+        materias.find((x) => x.id === "99") &&
+        materias.find((x) => x.id === "99").estado === "APROBADA"
+      ) {
         horasObligatoriasAprobadas += horasPS;
       }
       this.progresoTotal = (

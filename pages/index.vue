@@ -8,13 +8,7 @@
         </v-card-text>
         <v-card-text>
           <v-row>
-            <v-col
-              v-for="(carrera, i) in utnFrcu"
-              :key="i"
-              cols="12"
-              sm="6"
-              md="3"
-            >
+            <v-col v-for="(carrera, i) in utnFrcu" :key="i" cols="12" sm="6">
               <v-card :color="carrera.color" :to="carrera.to">
                 <v-card-text>
                   <p class="title">
@@ -56,6 +50,12 @@ export default {
           title: "Ingeniería en Sistema de Información",
           icon: "mdi-laptop",
           color: "green lighten-2",
+        },
+        {
+          to: "/analista-frcu",
+          title: "Analista Universitario de Sistemas",
+          icon: "mdi-laptop",
+          color: "blue lighten-2",
         },
         {
           to: "/loi-frcu",

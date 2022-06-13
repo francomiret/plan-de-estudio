@@ -87,6 +87,11 @@ export default {
               to: "/isi-frcu",
             },
             {
+              icon: "mdi-laptop",
+              title: "AUS",
+              to: "/analista-frcu",
+            },
+            {
               icon: "mdi-account-group",
               title: "LOI",
               to: "/loi-frcu",
