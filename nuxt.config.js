@@ -1,5 +1,5 @@
 import colors from "vuetify/es5/util/colors";
-const path = require("path");
+const path = require('path')
 
 export default {
   target: "static",
@@ -12,7 +12,7 @@ export default {
     titleTemplate: "%s - Plan de estudios",
     title: "Plan de estudios",
     htmlAttrs: {
-      lang: "en",
+      lang: "es",
     },
     meta: [
       { charset: "utf-8" },
@@ -36,16 +36,18 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
-    "@nuxtjs/pwa",
   ],
 
   pwa: {
-    icon: {
-      /* icon options */
+    manifest: {
+      name: "Plan de Estudios",
+      short_name: "Plan de Estudios",
+      lang: "es",
+      display: "standalone",
     },
   },
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ["@nuxtjs/pwa"],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
@@ -66,13 +68,41 @@ export default {
     },
   },
 
-  manifest: {
-    name: "Plan de Estudios",
-    short_name: "Plan de Estudios",
-    lang: "es",
-    display: "standalone",
-  },
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-};
+  build: {
+    extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        include: path.resolve(__dirname, 'contents'),
+      })
+    }
+  },
+  
+  workbox: {
+    runtimeCaching: [
+      {
+        urlPattern: 'https://fonts.googleapis.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      },
+      {
+        urlPattern: 'https://fonts.gstatic.com/.*',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      },
+      {
+        urlPattern: 'https://cdn.snipcart.com/.*',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      },
+      {
+        urlPattern: 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js',
+        handler: 'cacheFirst',
+        method: 'GET',
+        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+      }
+    ]
+  }};
