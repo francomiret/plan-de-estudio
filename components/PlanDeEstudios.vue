@@ -58,6 +58,11 @@
                               ELECTIVA
                             </v-chip>
                           </template>
+                          <template>
+                            <v-chip x-small v-if="materia.optativa">
+                              OPTATIVA
+                            </v-chip>
+                          </template>
                         </v-col>
                         <v-col cols="4">
                           <strong>{{ materia.horas }} hs</strong></v-col
