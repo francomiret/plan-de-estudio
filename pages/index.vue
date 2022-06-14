@@ -47,7 +47,7 @@ export default {
         },
         {
           to: "/isi-frcu",
-          title: "Ingeniería en Sistema de Información",
+          title: "Ingeniería en Sistemas de Información",
           icon: "mdi-laptop",
           color: "green lighten-2",
         },

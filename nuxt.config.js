@@ -1,11 +1,12 @@
 import colors from "vuetify/es5/util/colors";
+const path = require("path");
 
 export default {
   target: "static",
   router: {
-    base: '/plan-de-estudio/'
+    base: "/plan-de-estudio/",
   },
-  
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: "%s - Plan de estudios",
@@ -35,8 +36,14 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
+    "@nuxtjs/pwa",
   ],
 
+  pwa: {
+    icon: {
+      /* icon options */
+    },
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
 
@@ -57,6 +64,13 @@ export default {
         },
       },
     },
+  },
+
+  manifest: {
+    name: "Plan de Estudios",
+    short_name: "Plan de Estudios",
+    lang: "es",
+    display: "standalone",
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
