@@ -1,7 +1,9 @@
 import colors from "vuetify/es5/util/colors";
-const path = require('path')
 
 export default {
+  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
+  ssr: false,
+  
   target: "static",
   router: {
     base: "/plan-de-estudio/",
@@ -39,11 +41,14 @@ export default {
   ],
 
   pwa: {
+    meta: {
+      title: "Plan de Estudios",
+      author: "Franco Miret",
+    },
     manifest: {
       name: "Plan de Estudios",
       short_name: "Plan de Estudios",
       lang: "es",
-      display: "standalone",
     },
   },
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -69,40 +74,5 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    extend(config, ctx) {
-      config.module.rules.push({
-        test: /\.md$/,
-        loader: 'frontmatter-markdown-loader',
-        include: path.resolve(__dirname, 'contents'),
-      })
-    }
-  },
-  
-  workbox: {
-    runtimeCaching: [
-      {
-        urlPattern: 'https://fonts.googleapis.com/.*',
-        handler: 'cacheFirst',
-        method: 'GET',
-        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
-      },
-      {
-        urlPattern: 'https://fonts.gstatic.com/.*',
-        handler: 'cacheFirst',
-        method: 'GET',
-        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
-      },
-      {
-        urlPattern: 'https://cdn.snipcart.com/.*',
-        method: 'GET',
-        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
-      },
-      {
-        urlPattern: 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js',
-        handler: 'cacheFirst',
-        method: 'GET',
-        strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
-      }
-    ]
-  }};
+  build: {},
+};
