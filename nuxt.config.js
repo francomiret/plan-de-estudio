@@ -3,8 +3,9 @@ import colors from "vuetify/es5/util/colors";
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
-  
+
   target: "static",
+  
   router: {
     base: "/plan-de-estudio/",
   },
@@ -40,19 +41,17 @@ export default {
     "@nuxtjs/vuetify",
   ],
 
+  // Modules: https://go.nuxtjs.dev/config-modules
+  modules: ["@nuxtjs/pwa"],
+  
+  // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
-    meta: {
-      title: "Plan de Estudios",
-      author: "Franco Miret",
-    },
     manifest: {
       name: "Plan de Estudios",
       short_name: "Plan de Estudios",
       lang: "es",
     },
   },
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxtjs/pwa"],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
