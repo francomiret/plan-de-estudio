@@ -1,0 +1,762 @@
+[
+  {
+    "nota": null,
+    "id": "4",
+    "nombre": "INGENIERÍA CIVIL I",
+    "horas": "3",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "1",
+    "nombre": "ANÁLISIS MATEMÁTICO I",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "2",
+    "nombre": "INGENIERÍA Y SOCIEDAD",
+    "horas": "4",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "3",
+    "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+
+  {
+    "nota": null,
+    "id": "5",
+    "nombre": "SISTEMAS DE REPRESENTACIÓN",
+    "horas": "3",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "6",
+    "nombre": "QUÍMICA GENERAL",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "7",
+    "nombre": "FÍSICA I",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "8",
+    "nombre": "FUNDAMENTOS DE INFORMÁTICA",
+    "horas": "4",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "9",
+    "nombre": "ESTABILIDAD",
+    "horas": "10",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "10",
+    "nombre": "ANÁLISIS MATEMÁTICO II",
+    "horas": "10",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "11",
+    "nombre": "TECNOLOGÍA DE LOS MATERIALES",
+    "horas": "4",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["6", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "12",
+    "nombre": "INGENIERÍA CIVIL II",
+    "horas": "3",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["4", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "13",
+    "nombre": "INGLÉS I",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "14",
+    "nombre": "GEOLOGÍA APLICADA",
+    "horas": "4",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["4", "6", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "15",
+    "nombre": "FÍSICA II",
+    "horas": "10",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "7"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "16",
+    "nombre": "PROBABILIDAD Y ESTADÍSTICA",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "17",
+    "nombre": "HIDRÁULICA GENERAL Y APLICADA",
+    "horas": "10",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["9", "10"],
+      "necesitaAprobada": ["1", "3", "5", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "18",
+    "nombre": "TECNOLOGÍA DEL HORMIGÓN",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "16"],
+      "necesitaAprobada": ["1", "3", "5", "6", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "19",
+    "nombre": "TECNOLOGÍA DE LA CONSTRUCCIÓN",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["9", "11", "12"],
+      "necesitaAprobada": ["1", "3", "4", "5", "6", "7", "8"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "22",
+    "nombre": "INGLÉS II",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["13"] }
+  },
+  {
+    "nota": null,
+    "id": "23",
+    "nombre": "RESISTENCIA DE MATERIALES",
+    "horas": "8",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["9"],
+      "necesitaAprobada": ["1", "3", "5", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "20",
+    "nombre": "CÁLCULO AVANZADO",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["10"],
+      "necesitaAprobada": ["1", "3", "5"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "21",
+    "nombre": "ECONOMÍA",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["12"], "necesitaAprobada": ["2", "5"] }
+  },
+  {
+    "nota": null,
+    "id": "24",
+    "nombre": "INSTALACIONES ELÉCTRICAS Y ACÚSTICAS",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "15"],
+      "necesitaAprobada": ["1", "5", "6", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "25",
+    "nombre": "GEOTOPOGRAFÍA",
+    "horas": "8",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["10", "15"],
+      "necesitaAprobada": ["1", "3", "5", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "26",
+    "nombre": "INSTALACIONES TERMOMECÁNICAS",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "15"],
+      "necesitaAprobada": ["1", "5", "6", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "27",
+    "nombre": "INSTALACIONES SANITARIAS Y DE GAS",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "17"],
+      "necesitaAprobada": ["6", "7", "9", "10"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "28",
+    "nombre": "ESTRUCTURAS DE HORMIGÓN",
+    "horas": "10",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["18", "19", "23"],
+      "necesitaAprobada": ["9", "11", "12", "16"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "29",
+    "nombre": "DISEÑO ARQUITECTÓNICO, PLANEAMIENTO Y URBANISMO",
+    "horas": "5",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["19"],
+      "necesitaAprobada": ["9", "11", "12", "13"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "30",
+    "nombre": "ANÁLISIS ESTRUCTURAL I",
+    "horas": "10",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["12", "23"],
+      "necesitaAprobada": ["4", "7", "9"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "31",
+    "nombre": "GEOTECNIA",
+    "horas": "10",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["17", "19", "23"],
+      "necesitaAprobada": ["9", "10", "11", "12"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "32",
+    "nombre": "HIDROLOGÍA Y OBRAS HIDRÁULICAS",
+    "horas": "8",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["17", "19", "25"],
+      "necesitaAprobada": ["9", "10", "11", "12", "15"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "33",
+    "nombre": "INGENIERÍA LEGAL",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["12"],
+      "necesitaAprobada": ["2"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "34",
+    "nombre": "ORGANIZACIÓN Y CONDUCCIÓN DE OBRAS",
+    "horas": "5",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["21", "24", "26", "27", "28", "29"],
+      "necesitaAprobada": ["12", "13", "17", "19", "22", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "35",
+    "nombre": "VÍAS DE COMUNICACIÓN I",
+    "horas": "8",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["25"],
+      "necesitaAprobada": ["10", "15"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "37",
+    "nombre": "ELASTICIDAD Y PLASTICIDAD",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["10", "20"],
+      "necesitaAprobada": ["1", "3", "9", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "38",
+    "nombre": "PREFABRICACIÓN",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["11", "28"],
+      "necesitaAprobada": ["19"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "39",
+    "nombre": "CIMENTACIONES",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["28", "31"],
+      "necesitaAprobada": ["17", "18", "19", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "48",
+    "nombre": "AMBIENTAL",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": [],
+      "necesitaAprobada": ["21", "29", "33"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "99",
+    "nombre": "PRÁCTICA SUPERVISADA",
+    "horas": "200",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["28", "29", "32", "33"],
+      "necesitaAprobada": ["12", "16", "17", "19", "20", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "36",
+    "nombre": "ANÁLISIS ESTRUCTURAL II",
+    "horas": "10",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["28", "30"],
+      "necesitaAprobada": ["18", "19", "20", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "40",
+    "nombre": "VÍAS DE COMUNICACIÓN II",
+    "horas": "8",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["31", "35"],
+      "necesitaAprobada": ["17", "19", "23", "25"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "42",
+    "nombre": "ANÁLISIS ESTRUCTURAL III",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["37"],
+      "necesitaAprobada": ["30"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "43",
+    "nombre": "DISEÑO ARQUITECTÓNICO Y DE PLANEAMIENTO II",
+    "horas": "3",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["29"],
+      "necesitaAprobada": ["19"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "98",
+    "nombre": "INTRODUCCIÓN A LA INVESTIGACIÓN CIENTÍFICA",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["21", "33"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "49",
+    "nombre": "GESTIÓN DE LA RESPONSABILIDAD SOCIAL EN LAS ORGANIZACIONES",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["21", "33"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "41",
+    "nombre": "PROYECTO FINAL",
+    "horas": "6",
+    "ano": "6",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["28", "29", "32", "33"],
+      "necesitaAprobada": ["12", "16", "17", "19", "20", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "44",
+    "nombre": "CONSTRUCCIONES METÁLICAS Y DE MADERA",
+    "horas": "8",
+    "ano": "6",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["30"],
+      "necesitaAprobada": ["12", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "45",
+    "nombre": "INGENIERÍA SANITARIA",
+    "horas": "6",
+    "ano": "6",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["32"],
+      "necesitaAprobada": ["17", "19", "25"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "46",
+    "nombre": "PUENTES",
+    "horas": "4",
+    "ano": "6",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["36", "39"],
+      "necesitaAprobada": ["19", "28"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "47",
+    "nombre": "OBRAS FLUVIALES Y MARÍTIMAS",
+    "horas": "5",
+    "ano": "6",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["36", "39"],
+      "necesitaAprobada": ["17"]
+    }
+  }
+]

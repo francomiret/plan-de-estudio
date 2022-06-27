@@ -1,0 +1,745 @@
+[
+  {
+    "nota": null,
+    "id": "2",
+    "nombre": "INGENIERÍA ELECTROMECÁNICA I",
+    "horas": "3",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "1",
+    "nombre": "ANÁLISIS MATEMÁTICO I",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "3",
+    "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+
+  {
+    "nota": null,
+    "id": "4",
+    "nombre": "SISTEMAS DE REPRESENTACIÓN",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "5",
+    "nombre": "QUÍMICA GENERAL",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "6",
+    "nombre": "FÍSICA I",
+    "horas": "10",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "7",
+    "nombre": "INGENIERÍA Y SOCIEDAD",
+    "horas": "4",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "8",
+    "nombre": "REPRESENTACIÓN GRÁFICA",
+    "horas": "6",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "9",
+    "nombre": "ESTABILIDAD",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3", "6"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "10",
+    "nombre": "INGENIERÍA ELECTROMECÁNICA II",
+    "horas": "3",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "2", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "11",
+    "nombre": "ANÁLISIS MATEMÁTICO II",
+    "horas": "10",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "12",
+    "nombre": "PROBABILIDAD Y ESTADÍSTICA",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "13",
+    "nombre": "INGLÉS I",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "14",
+    "nombre": "FÍSICA II",
+    "horas": "10",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "6"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "15",
+    "nombre": "CONOCIMIENTO DE MATERIALES",
+    "horas": "8",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["5"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "16",
+    "nombre": "PROGRAMACIÓN EN COMPUTACIÓN",
+    "horas": "6",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1", "3"], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "17",
+    "nombre": "TECNOLOGÍA MECÁNICA",
+    "horas": "10",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["14", "15"],
+      "necesitaAprobada": ["1", "4", "5", "6", "8"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "18",
+    "nombre": "INGENIERÍA ELECTROMECÁNICA III",
+    "horas": "3",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["10", "11", "14"],
+      "necesitaAprobada": ["1", "2", "3", "4", "6"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "19",
+    "nombre": "ELECTROTECNIA",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "14"],
+      "necesitaAprobada": ["1", "3", "4", "6"]
+    }
+  },
+
+  {
+    "nota": null,
+    "id": "20",
+    "nombre": "TERMODINÁMICA TÉCNICA",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["14"],
+      "necesitaAprobada": ["1", "4", "6"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "21",
+    "nombre": "MATEMÁTICA PARA INGENIERÍA ELECTROMECÁNICA",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11"],
+      "necesitaAprobada": ["1", "3", "4"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "22",
+    "nombre": "INGLÉS II",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": ["13"] }
+  },
+  {
+    "nota": null,
+    "id": "23",
+    "nombre": "MECÁNICA Y MECANISMOS",
+    "horas": "8",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["8", "9", "11"],
+      "necesitaAprobada": ["1", "3", "4", "6"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "24",
+    "nombre": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+    "horas": "4",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["14"],
+      "necesitaAprobada": ["1", "4", "5", "6", "7"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "25",
+    "nombre": "ELEMENTOS DE MÁQUINAS",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["17", "18", "23"],
+      "necesitaAprobada": ["9", "10", "11", "13", "14", "15", "16"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "26",
+    "nombre": "MECÁNICA DE LOS FLUIDOS Y MÁQUINAS FLUIDODINÁMICAS",
+    "horas": "5",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["20", "23"],
+      "necesitaAprobada": ["9", "11", "14", "16"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "27",
+    "nombre": "MÁQUINAS ELÉCTRICAS",
+    "horas": "5",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["19"],
+      "necesitaAprobada": ["14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "28",
+    "nombre": "MEDICIONES ELÉCTRICAS",
+    "horas": "8",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["19", "21"],
+      "necesitaAprobada": ["11", "14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "29",
+    "nombre": "MÁQUINAS TÉRMICAS",
+    "horas": "10",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["20"],
+      "necesitaAprobada": ["14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "30",
+    "nombre": "ELECTRÓNICA INDUSTRIAL",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["19"],
+      "necesitaAprobada": ["14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "31",
+    "nombre": "ECONOMÍA",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["10"], "necesitaAprobada": ["7"] }
+  },
+  {
+    "nota": null,
+    "id": "32",
+    "nombre": "LEGISLACIÓN",
+    "horas": "4",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["10"], "necesitaAprobada": ["7"] }
+  },
+  {
+    "nota": null,
+    "id": "33",
+    "nombre": "DISEÑO Y FABRICACIÓN ASISTIDO POR COMPUTADORA",
+    "horas": "4",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["15", "17", "23"],
+      "necesitaAprobada": ["9", "11", "14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "48",
+    "nombre": "INGENIERÍA DE SUPERFICIES",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": [],
+      "necesitaAprobada": ["6", "14", "15"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "34",
+    "nombre": "REDES DE DISTRIBUCIÓN E INSTALACIONES ELÉCTRICAS",
+    "horas": "5",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["27", "28"],
+      "necesitaAprobada": ["19"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "35",
+    "nombre": "ORGANIZACIÓN INDUSTRIAL",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["31", "32"],
+      "necesitaAprobada": ["10", "12"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "36",
+    "nombre": "AUTOMATIZACIÓN Y CONTROL INDUSTRIAL",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["21", "26", "27", "28", "30"],
+      "necesitaAprobada": ["19", "20", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "37",
+    "nombre": "PROYECTO FINAL",
+    "horas": "3",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": true,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["25", "26", "27", "29"],
+      "necesitaAprobada": ["13", "17", "19", "20", "21", "22", "23", "24"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "38",
+    "nombre": "MÁQUINAS DE ELEVACIÓN Y TRANSPORTE",
+    "horas": "8",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["25", "26"],
+      "necesitaAprobada": ["17", "18", "20", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "39",
+    "nombre": "ELECTRÓNICA DE POTENCIA",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["28", "30"],
+      "necesitaAprobada": ["19", "21"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "40",
+    "nombre": "INTRODUCCIÓN AL PROYECTO DE INSTALACIONES INDUSTRIALES",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": [],
+      "necesitaAprobada": ["19", "20", "21", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "46",
+    "nombre": "AMBIENTAL",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["31", "32"],
+      "necesitaAprobada": ["24"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "99",
+    "nombre": "PRÁCTICA SUPERVISADA",
+    "horas": "200",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["25", "26", "27", "29"],
+      "necesitaAprobada": ["17", "19", "20", "21", "22", "23", "24"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "41",
+    "nombre": "INSTALACIONES TÉRMICAS, MECÁNICAS Y FRIGORÍFICAS",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "29"],
+      "necesitaAprobada": ["20", "23"]
+    }
+  },
+
+  {
+    "nota": null,
+    "id": "42",
+    "nombre": "CENTRALES Y SISTEMAS DE TRANSMISIÓN",
+    "horas": "10",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "27", "28", "29"],
+      "necesitaAprobada": ["19", "20", "21", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "43",
+    "nombre": "HIDRODINÁMICA Y NEUMÁTICA",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["26"],
+      "necesitaAprobada": ["20", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "44",
+    "nombre": "AUTOMATISMOS",
+    "horas": "8",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["36", "39"],
+      "necesitaAprobada": ["19", "20", "21", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "45",
+    "nombre": "INSTALACIONES INDUSTRIALES REGIONALES",
+    "horas": "6",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["40"],
+      "necesitaAprobada": ["19", "20", "21", "23"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "47",
+    "nombre": "EMPRENDEDORISMO",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": {
+      "necesitaRegular": ["35"],
+      "necesitaAprobada": ["31", "32"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "49",
+    "nombre": "INTRODUCCIÓN A LA INVESTIGACIÓN CIENTÍFICA",
+    "horas": "4",
+    "ano": "5",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": true,
+    "paraCursar": { "necesitaRegular": ["10"], "necesitaAprobada": ["7"] }
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "Plan de Estudios",
+  "short_name": "Plan de Estudios",
+  "icons": [],
+  "start_url": "/plan-de-estudio/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "es"
+}
