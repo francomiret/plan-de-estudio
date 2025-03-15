@@ -40,6 +40,12 @@ export default {
           color: "yellow lighten-2",
         },
         {
+          to: "/civil-frcu-2023",
+          title: "Ingeniería Civil (2023)",
+          icon: "mdi-hard-hat",
+          color: "yellow lighten-2",
+        },
+        {
           to: "/electro-frcu",
           title: "Ingeniería Electromecánica",
           icon: "mdi-cog",

@@ -77,6 +77,11 @@ export default {
               to: "/civil-frcu",
             },
             {
+              icon: "mdi-hard-hat",
+              title: "Civil (2023)",
+              to: "/civil-frcu-2023",
+            },
+            {
               icon: "mdi-cog",
               title: "Electro",
               to: "/electro-frcu",
