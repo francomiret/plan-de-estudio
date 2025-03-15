@@ -687,6 +687,22 @@
   },
   {
     "nota": null,
+    "id": "99",
+    "nombre": "Práctica Supervisada",
+    "horas": "200",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["28", "29", "32", "33"],
+      "necesitaAprobada": ["12", "16", "17", "19", "20", "23"]
+    }
+  },
+  {
+    "nota": null,
     "id": "46",
     "nombre": "Gestión Ambiental y Desarrollo Sustentable",
     "horas": "6",

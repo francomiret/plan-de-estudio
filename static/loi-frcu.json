@@ -2,7 +2,7 @@
   {
     "nota": null,
     "id": "4",
-    "nombre": "ORGANIZACIÓN INDUSTRIAL I",
+    "nombre": "Organización Industrial I",
     "horas": "6",
     "ano": "1",
     "cuatrimestre": "0",
@@ -15,7 +15,7 @@
   {
     "nota": null,
     "id": "1",
-    "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+    "nombre": "Álgebra y Geometría Analítica",
     "horas": "9",
     "ano": "1",
     "cuatrimestre": "1",
@@ -28,7 +28,7 @@
   {
     "nota": null,
     "id": "2",
-    "nombre": "INFORMÁTICA I",
+    "nombre": "Informática I",
     "horas": "6",
     "ano": "1",
     "cuatrimestre": "1",
@@ -41,7 +41,7 @@
   {
     "nota": null,
     "id": "3",
-    "nombre": "QUÍMICA",
+    "nombre": "Química",
     "horas": "6",
     "ano": "1",
     "cuatrimestre": "1",
@@ -55,7 +55,7 @@
   {
     "nota": null,
     "id": "5",
-    "nombre": "ECONOMÍA GENERAL",
+    "nombre": "Economía General",
     "horas": "6",
     "ano": "1",
     "cuatrimestre": "2",
@@ -68,7 +68,7 @@
   {
     "nota": null,
     "id": "6",
-    "nombre": "FÍSICA",
+    "nombre": "Física",
     "horas": "6",
     "ano": "1",
     "cuatrimestre": "2",
@@ -81,7 +81,7 @@
   {
     "nota": null,
     "id": "7",
-    "nombre": "ANÁLISIS MATEMÁTICO",
+    "nombre": "Análisis Matemático",
     "horas": "9",
     "ano": "1",
     "cuatrimestre": "2",
@@ -94,7 +94,7 @@
   {
     "nota": null,
     "id": "8",
-    "nombre": "INGLÉS I",
+    "nombre": "Inglés I",
     "horas": "2",
     "ano": "1",
     "cuatrimestre": "0",
@@ -107,7 +107,7 @@
   {
     "nota": null,
     "id": "9",
-    "nombre": "INGLÉS II",
+    "nombre": "Inglés II",
     "horas": "2",
     "ano": "2",
     "cuatrimestre": "0",
@@ -120,7 +120,7 @@
   {
     "nota": null,
     "id": "10",
-    "nombre": "CONOCIMIENTO DE MATERIALES",
+    "nombre": "Conocimiento de Materiales",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "1",
@@ -133,7 +133,7 @@
   {
     "nota": null,
     "id": "11",
-    "nombre": "COSTOS",
+    "nombre": "Costos",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "1",
@@ -147,7 +147,7 @@
   {
     "nota": null,
     "id": "12",
-    "nombre": "INFORMÁTICA II",
+    "nombre": "Informática II",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "1",
@@ -160,7 +160,7 @@
   {
     "nota": null,
     "id": "13",
-    "nombre": "ORGANIZACIÓN INDUSTRIAL II",
+    "nombre": "Organización Industrial II",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "0",
@@ -173,7 +173,7 @@
   {
     "nota": null,
     "id": "14",
-    "nombre": "PROBABILIDAD Y ESTADÍSTICA",
+    "nombre": "Probabilidad y Estadística",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "1",
@@ -186,7 +186,7 @@
   {
     "nota": null,
     "id": "15",
-    "nombre": "COMERCIALIZACIÓN",
+    "nombre": "Comercialización",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "2",
@@ -202,7 +202,7 @@
   {
     "nota": null,
     "id": "16",
-    "nombre": "ESTUDIO DEL TRABAJO",
+    "nombre": "Estudio del Trabajo",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "2",
@@ -215,7 +215,7 @@
   {
     "nota": null,
     "id": "17",
-    "nombre": "PROCESOS INDUSTRIALES",
+    "nombre": "Procesos Industriales",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "2",
@@ -231,7 +231,7 @@
   {
     "nota": null,
     "id": "18",
-    "nombre": "INVESTIGACIÓN OPERATIVA",
+    "nombre": "Investigación Operativa",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "2",
@@ -245,7 +245,7 @@
   {
     "nota": null,
     "id": "19",
-    "nombre": "ECONOMÍA DE LA EMPRESA",
+    "nombre": "Economía de la Empresa",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "1",
@@ -261,7 +261,7 @@
   {
     "nota": null,
     "id": "20",
-    "nombre": "ORGANIZACIÓN INDUSTRIAL III ",
+    "nombre": "Organización Industrial III",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "0",
@@ -277,7 +277,7 @@
   {
     "nota": null,
     "id": "21",
-    "nombre": "LEGISLACIÓN",
+    "nombre": "Legislación",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "1",
@@ -293,7 +293,7 @@
   {
     "nota": null,
     "id": "22",
-    "nombre": "SISTEMAS Y MÉTODOS ADMINISTRATIVOS",
+    "nombre": "Sistemas y Métodos Administrativos",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "1",
@@ -309,7 +309,7 @@
   {
     "nota": null,
     "id": "23",
-    "nombre": "PLANIFICACIÓN Y CONTROL DE LA PRODUCCIÓN",
+    "nombre": "Planificación y Control de la Producción",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "1",
@@ -325,7 +325,7 @@
   {
     "nota": null,
     "id": "26",
-    "nombre": "INGENIERÍA DE CALIDAD",
+    "nombre": "Ingeniería de Calidad",
     "horas": "5",
     "ano": "3",
     "cuatrimestre": "0",
@@ -341,7 +341,7 @@
   {
     "nota": null,
     "id": "24",
-    "nombre": "ANÁLISIS DE ESTADOS CONTABLES",
+    "nombre": "Análisis de Estados Contables",
     "horas": "9",
     "ano": "3",
     "cuatrimestre": "2",
@@ -354,7 +354,7 @@
   {
     "nota": null,
     "id": "25",
-    "nombre": "SEGURIDAD, HIGIENE E INGENIERÍA AMBIENTAL",
+    "nombre": "Seguridad, Higiene e Ingeniería Ambiental",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "2",
@@ -370,7 +370,7 @@
   {
     "nota": null,
     "id": "27",
-    "nombre": "COMERCIO EXTERIOR",
+    "nombre": "Comercio Exterior",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "1",
@@ -386,7 +386,7 @@
   {
     "nota": null,
     "id": "28",
-    "nombre": "EVALUACIÓN DE PROYECTO",
+    "nombre": "Evaluación de Proyecto",
     "horas": "9",
     "ano": "4",
     "cuatrimestre": "1",
@@ -402,7 +402,7 @@
   {
     "nota": null,
     "id": "29",
-    "nombre": "GESTIÓN DE PYMES",
+    "nombre": "Gestión de Pymes",
     "horas": "9",
     "ano": "4",
     "cuatrimestre": "1",
@@ -418,7 +418,7 @@
   {
     "nota": null,
     "id": "30",
-    "nombre": "PROYECTO FINAL",
+    "nombre": "Proyecto Final",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "0",
@@ -434,7 +434,7 @@
   {
     "nota": null,
     "id": "99",
-    "nombre": "PRÁCTICA SUPERVISADA",
+    "nombre": "Práctica Supervisada",
     "horas": "180",
     "ano": "4",
     "cuatrimestre": "0",
@@ -450,7 +450,7 @@
   {
     "nota": null,
     "id": "31",
-    "nombre": "RELACIONES INDUSTRIALES",
+    "nombre": "Relaciones Industriales",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -466,7 +466,7 @@
   {
     "nota": null,
     "id": "32",
-    "nombre": "CONTROL DE GESTIÓN",
+    "nombre": "Control de Gestión",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -482,7 +482,7 @@
   {
     "nota": null,
     "id": "33",
-    "nombre": "FLUJO DE INSUMOS Y PRODUCTOS",
+    "nombre": "Flujo de Insumos y Productos",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -498,7 +498,7 @@
   {
     "nota": null,
     "id": "34",
-    "nombre": "SEMINARIO DE PLANEAMIENTO ESTRATÉGICO",
+    "nombre": "Seminario de Planeamiento Estratégico",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -514,7 +514,7 @@
   {
     "nota": null,
     "id": "35",
-    "nombre": "EMPRENDEDORISMO",
+    "nombre": "Emprendedorismo",
     "horas": "4",
     "ano": "4",
     "cuatrimestre": "2",
@@ -530,7 +530,7 @@
   {
     "nota": null,
     "id": "36",
-    "nombre": "GESTIÓN DE LA RESPONSABILIDAD SOCIAL EN LAS ORGANIZACIONES",
+    "nombre": "Gestión de la Responsabilidad Social en las Organizaciones",
     "horas": "4",
     "ano": "4",
     "cuatrimestre": "2",

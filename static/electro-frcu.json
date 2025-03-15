@@ -2,7 +2,7 @@
   {
     "nota": null,
     "id": "2",
-    "nombre": "INGENIERÍA ELECTROMECÁNICA I",
+    "nombre": "Ingeniería Electromecánica I",
     "horas": "3",
     "ano": "1",
     "cuatrimestre": "0",
@@ -15,7 +15,7 @@
   {
     "nota": null,
     "id": "1",
-    "nombre": "ANÁLISIS MATEMÁTICO I",
+    "nombre": "Análisis Matemático I",
     "horas": "10",
     "ano": "1",
     "cuatrimestre": "1",
@@ -28,7 +28,7 @@
   {
     "nota": null,
     "id": "3",
-    "nombre": "ÁLGEBRA Y GEOMETRÍA ANALÍTICA",
+    "nombre": "Álgebra y Geometría Analítica",
     "horas": "10",
     "ano": "1",
     "cuatrimestre": "1",
@@ -42,7 +42,7 @@
   {
     "nota": null,
     "id": "4",
-    "nombre": "SISTEMAS DE REPRESENTACIÓN",
+    "nombre": "Sistemas de Representación",
     "horas": "6",
     "ano": "1",
     "cuatrimestre": "1",
@@ -55,7 +55,7 @@
   {
     "nota": null,
     "id": "5",
-    "nombre": "QUÍMICA GENERAL",
+    "nombre": "Química General",
     "horas": "10",
     "ano": "1",
     "cuatrimestre": "2",
@@ -68,7 +68,7 @@
   {
     "nota": null,
     "id": "6",
-    "nombre": "FÍSICA I",
+    "nombre": "Física I",
     "horas": "10",
     "ano": "1",
     "cuatrimestre": "2",
@@ -81,7 +81,7 @@
   {
     "nota": null,
     "id": "7",
-    "nombre": "INGENIERÍA Y SOCIEDAD",
+    "nombre": "Ingeniería y Sociedad",
     "horas": "4",
     "ano": "1",
     "cuatrimestre": "2",
@@ -94,7 +94,7 @@
   {
     "nota": null,
     "id": "8",
-    "nombre": "REPRESENTACIÓN GRÁFICA",
+    "nombre": "Representación Gráfica",
     "horas": "6",
     "ano": "1",
     "cuatrimestre": "2",
@@ -107,7 +107,7 @@
   {
     "nota": null,
     "id": "9",
-    "nombre": "ESTABILIDAD",
+    "nombre": "Estabilidad",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "0",
@@ -120,7 +120,7 @@
   {
     "nota": null,
     "id": "10",
-    "nombre": "INGENIERÍA ELECTROMECÁNICA II",
+    "nombre": "Ingeniería Electromecánica II",
     "horas": "3",
     "ano": "2",
     "cuatrimestre": "0",
@@ -133,7 +133,7 @@
   {
     "nota": null,
     "id": "11",
-    "nombre": "ANÁLISIS MATEMÁTICO II",
+    "nombre": "Análisis Matemático II",
     "horas": "10",
     "ano": "2",
     "cuatrimestre": "1",
@@ -146,7 +146,7 @@
   {
     "nota": null,
     "id": "12",
-    "nombre": "PROBABILIDAD Y ESTADÍSTICA",
+    "nombre": "Probabilidad y Estadística",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "1",
@@ -159,7 +159,7 @@
   {
     "nota": null,
     "id": "13",
-    "nombre": "INGLÉS I",
+    "nombre": "Inglés I",
     "horas": "2",
     "ano": "2",
     "cuatrimestre": "0",
@@ -172,7 +172,7 @@
   {
     "nota": null,
     "id": "14",
-    "nombre": "FÍSICA II",
+    "nombre": "Física II",
     "horas": "10",
     "ano": "2",
     "cuatrimestre": "2",
@@ -185,7 +185,7 @@
   {
     "nota": null,
     "id": "15",
-    "nombre": "CONOCIMIENTO DE MATERIALES",
+    "nombre": "Conocimiento de Materiales",
     "horas": "8",
     "ano": "2",
     "cuatrimestre": "2",
@@ -198,7 +198,7 @@
   {
     "nota": null,
     "id": "16",
-    "nombre": "PROGRAMACIÓN EN COMPUTACIÓN",
+    "nombre": "Programación en Computación",
     "horas": "6",
     "ano": "2",
     "cuatrimestre": "2",
@@ -211,7 +211,7 @@
   {
     "nota": null,
     "id": "17",
-    "nombre": "TECNOLOGÍA MECÁNICA",
+    "nombre": "Tecnología Mecánica",
     "horas": "10",
     "ano": "3",
     "cuatrimestre": "1",
@@ -227,7 +227,7 @@
   {
     "nota": null,
     "id": "18",
-    "nombre": "INGENIERÍA ELECTROMECÁNICA III",
+    "nombre": "Ingeniería Electromecánica III",
     "horas": "3",
     "ano": "3",
     "cuatrimestre": "0",
@@ -243,7 +243,7 @@
   {
     "nota": null,
     "id": "19",
-    "nombre": "ELECTROTECNIA",
+    "nombre": "Electrotecnia",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "0",
@@ -260,7 +260,7 @@
   {
     "nota": null,
     "id": "20",
-    "nombre": "TERMODINÁMICA TÉCNICA",
+    "nombre": "Termodinámica Técnica",
     "horas": "4",
     "ano": "3",
     "cuatrimestre": "0",
@@ -276,7 +276,7 @@
   {
     "nota": null,
     "id": "21",
-    "nombre": "MATEMÁTICA PARA INGENIERÍA ELECTROMECÁNICA",
+    "nombre": "Matemática para Ingeniería Electromecánica",
     "horas": "6",
     "ano": "3",
     "cuatrimestre": "1",
@@ -292,7 +292,7 @@
   {
     "nota": null,
     "id": "22",
-    "nombre": "INGLÉS II",
+    "nombre": "Inglés II",
     "horas": "2",
     "ano": "3",
     "cuatrimestre": "0",
@@ -305,7 +305,7 @@
   {
     "nota": null,
     "id": "23",
-    "nombre": "MECÁNICA Y MECANISMOS",
+    "nombre": "Mecánica y Mecanismos",
     "horas": "8",
     "ano": "3",
     "cuatrimestre": "2",
@@ -321,7 +321,7 @@
   {
     "nota": null,
     "id": "24",
-    "nombre": "HIGIENE Y SEGURIDAD INDUSTRIAL",
+    "nombre": "Higiene y Seguridad Industrial",
     "horas": "4",
     "ano": "3",
     "cuatrimestre": "2",
@@ -337,7 +337,7 @@
   {
     "nota": null,
     "id": "25",
-    "nombre": "ELEMENTOS DE MÁQUINAS",
+    "nombre": "Elementos de Máquinas",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "0",
@@ -353,7 +353,7 @@
   {
     "nota": null,
     "id": "26",
-    "nombre": "MECÁNICA DE LOS FLUIDOS Y MÁQUINAS FLUIDODINÁMICAS",
+    "nombre": "Mecánica de los Fluidos y Máquinas Fluido-Dinámicas",
     "horas": "5",
     "ano": "4",
     "cuatrimestre": "0",
@@ -369,7 +369,7 @@
   {
     "nota": null,
     "id": "27",
-    "nombre": "MÁQUINAS ELÉCTRICAS",
+    "nombre": "Máquinas Eléctricas",
     "horas": "5",
     "ano": "4",
     "cuatrimestre": "0",
@@ -385,7 +385,7 @@
   {
     "nota": null,
     "id": "28",
-    "nombre": "MEDICIONES ELÉCTRICAS",
+    "nombre": "Mediciones Eléctricas",
     "horas": "8",
     "ano": "4",
     "cuatrimestre": "1",
@@ -401,7 +401,7 @@
   {
     "nota": null,
     "id": "29",
-    "nombre": "MÁQUINAS TÉRMICAS",
+    "nombre": "Máquinas Térmicas",
     "horas": "10",
     "ano": "4",
     "cuatrimestre": "1",
@@ -417,7 +417,7 @@
   {
     "nota": null,
     "id": "30",
-    "nombre": "ELECTRÓNICA INDUSTRIAL",
+    "nombre": "Electrónica Industrial",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -433,7 +433,7 @@
   {
     "nota": null,
     "id": "31",
-    "nombre": "ECONOMÍA",
+    "nombre": "Economía",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -446,7 +446,7 @@
   {
     "nota": null,
     "id": "32",
-    "nombre": "LEGISLACIÓN",
+    "nombre": "Legislación",
     "horas": "4",
     "ano": "4",
     "cuatrimestre": "2",
@@ -459,7 +459,7 @@
   {
     "nota": null,
     "id": "33",
-    "nombre": "DISEÑO Y FABRICACIÓN ASISTIDO POR COMPUTADORA",
+    "nombre": "Diseño y Fabricación Asistido por Computadora",
     "horas": "4",
     "ano": "4",
     "cuatrimestre": "1",
@@ -475,7 +475,7 @@
   {
     "nota": null,
     "id": "48",
-    "nombre": "INGENIERÍA DE SUPERFICIES",
+    "nombre": "Ingeniería de Superficies",
     "horas": "6",
     "ano": "4",
     "cuatrimestre": "2",
@@ -491,7 +491,7 @@
   {
     "nota": null,
     "id": "34",
-    "nombre": "REDES DE DISTRIBUCIÓN E INSTALACIONES ELÉCTRICAS",
+    "nombre": "Redes de Distribución e Instalaciones Eléctricas",
     "horas": "5",
     "ano": "5",
     "cuatrimestre": "0",
@@ -507,7 +507,7 @@
   {
     "nota": null,
     "id": "35",
-    "nombre": "ORGANIZACIÓN INDUSTRIAL",
+    "nombre": "Organización Industrial",
     "horas": "6",
     "ano": "5",
     "cuatrimestre": "1",
@@ -523,7 +523,7 @@
   {
     "nota": null,
     "id": "36",
-    "nombre": "AUTOMATIZACIÓN Y CONTROL INDUSTRIAL",
+    "nombre": "Automatización y Control Industrial",
     "horas": "6",
     "ano": "5",
     "cuatrimestre": "1",
@@ -539,7 +539,7 @@
   {
     "nota": null,
     "id": "37",
-    "nombre": "PROYECTO FINAL",
+    "nombre": "Proyecto Final",
     "horas": "3",
     "ano": "5",
     "cuatrimestre": "0",
@@ -555,7 +555,7 @@
   {
     "nota": null,
     "id": "38",
-    "nombre": "MÁQUINAS DE ELEVACIÓN Y TRANSPORTE",
+    "nombre": "Máquinas de Elevación y Transporte",
     "horas": "8",
     "ano": "5",
     "cuatrimestre": "1",
@@ -571,7 +571,7 @@
   {
     "nota": null,
     "id": "39",
-    "nombre": "ELECTRÓNICA DE POTENCIA",
+    "nombre": "Electrónica de Potencia",
     "horas": "4",
     "ano": "5",
     "cuatrimestre": "1",
@@ -587,7 +587,7 @@
   {
     "nota": null,
     "id": "40",
-    "nombre": "INTRODUCCIÓN AL PROYECTO DE INSTALACIONES INDUSTRIALES",
+    "nombre": "Introducción al Proyecto de Instalaciones Industriales",
     "horas": "6",
     "ano": "5",
     "cuatrimestre": "1",
@@ -603,7 +603,7 @@
   {
     "nota": null,
     "id": "46",
-    "nombre": "AMBIENTAL",
+    "nombre": "Ambiental",
     "horas": "4",
     "ano": "5",
     "cuatrimestre": "1",
@@ -619,7 +619,7 @@
   {
     "nota": null,
     "id": "99",
-    "nombre": "PRÁCTICA SUPERVISADA",
+    "nombre": "Práctica Supervisada",
     "horas": "200",
     "ano": "5",
     "cuatrimestre": "0",
@@ -635,7 +635,7 @@
   {
     "nota": null,
     "id": "41",
-    "nombre": "INSTALACIONES TÉRMICAS, MECÁNICAS Y FRIGORÍFICAS",
+    "nombre": "Instalaciones Térmicas, Mecánicas y Frigoríficas",
     "horas": "6",
     "ano": "5",
     "cuatrimestre": "2",
@@ -652,7 +652,7 @@
   {
     "nota": null,
     "id": "42",
-    "nombre": "CENTRALES Y SISTEMAS DE TRANSMISIÓN",
+    "nombre": "Centrales y Sistemas de Transmisión",
     "horas": "10",
     "ano": "5",
     "cuatrimestre": "2",
@@ -668,7 +668,7 @@
   {
     "nota": null,
     "id": "43",
-    "nombre": "HIDRODINÁMICA Y NEUMÁTICA",
+    "nombre": "Hidrodinámica y Neumática",
     "horas": "4",
     "ano": "5",
     "cuatrimestre": "2",
@@ -684,7 +684,7 @@
   {
     "nota": null,
     "id": "44",
-    "nombre": "AUTOMATISMOS",
+    "nombre": "Automatismos",
     "horas": "8",
     "ano": "5",
     "cuatrimestre": "2",
@@ -700,7 +700,7 @@
   {
     "nota": null,
     "id": "45",
-    "nombre": "INSTALACIONES INDUSTRIALES REGIONALES",
+    "nombre": "Instalaciones Industriales Regionales",
     "horas": "6",
     "ano": "5",
     "cuatrimestre": "2",
@@ -716,7 +716,7 @@
   {
     "nota": null,
     "id": "47",
-    "nombre": "EMPRENDEDORISMO",
+    "nombre": "Emprendedorismo",
     "horas": "4",
     "ano": "5",
     "cuatrimestre": "2",
@@ -732,7 +732,7 @@
   {
     "nota": null,
     "id": "49",
-    "nombre": "INTRODUCCIÓN A LA INVESTIGACIÓN CIENTÍFICA",
+    "nombre": "Introducción a la Investigación Científica",
     "horas": "4",
     "ano": "5",
     "cuatrimestre": "2",
