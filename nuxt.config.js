@@ -5,7 +5,7 @@ export default {
   ssr: false,
 
   target: "static",
-  
+
   router: {
     base: "/plan-de-estudio/",
   },
@@ -43,7 +43,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxtjs/pwa"],
-  
+
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
@@ -73,5 +73,10 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    commands: {
+      build: "nuxt generate",
+    },
+    output: "dist",
+  },
 };
