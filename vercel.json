@@ -3,7 +3,7 @@
     "env": {
       "NODE_ENV": "production"
     },
-    "scripts": {
+    "commands": {
       "build": "nuxt generate"
     },
     "output": "dist"
