@@ -1,8 +1,5 @@
 # plan-de-estudio
 
-## Demo
-https://francomiret.github.io/plan-de-estudio/
-
 ## Build Setup
 
 ```bash
