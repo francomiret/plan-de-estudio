@@ -1,13 +1,23 @@
 <template>
   <div>
     <v-card-text>
-      <p class="headline">
-        <v-icon>{{ titleIcon }}</v-icon>
-        {{ title }}
-      </p>
-      <p class="subtitle-1">
-        {{ subtitle }}
-      </p>
+      <v-row style="display: flex">
+        <v-col style="flex: 1">
+          <p class="headline">
+            <v-icon>{{ titleIcon }}</v-icon>
+            {{ title }}
+          </p>
+          <p class="subtitle-1">
+            {{ subtitle }}
+          </p>
+        </v-col>
+        <v-col cols="12" sm="4" md="4" lg="4" class="text-right">
+          <v-btn color="error" outlined @click="resetearProgreso">
+            <v-icon left>mdi-refresh</v-icon>
+            Resetear Progreso
+          </v-btn>
+        </v-col>
+      </v-row>
     </v-card-text>
     <v-row>
       <v-col v-for="(año, i) in años" :key="i" cols="12" sm="6" md="4" xl="3">
@@ -564,6 +574,17 @@ export default {
         (materia) =>
           materia.ano === año && materia.cuatrimestre === cuatrimestre
       );
+    },
+
+    resetearProgreso() {
+      if (
+        confirm(
+          "¿Estás seguro que deseas resetear todo el progreso? Esta acción no se puede deshacer."
+        )
+      ) {
+        localStorage.removeItem(this.dbName);
+        location.reload();
+      }
     },
   },
 

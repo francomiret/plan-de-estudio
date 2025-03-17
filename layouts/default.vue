@@ -87,6 +87,11 @@ export default {
               to: "/electro-frcu",
             },
             {
+              icon: "mdi-cog",
+              title: "Electro (2023)",
+              to: "/electro-frcu-2023",
+            },
+            {
               icon: "mdi-laptop",
               title: "ISI",
               to: "/isi-frcu",

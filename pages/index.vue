@@ -52,6 +52,12 @@ export default {
           color: "red lighten-2",
         },
         {
+          to: "/electro-frcu-2023",
+          title: "Ingeniería Electromecánica (2023)",
+          icon: "mdi-cog",
+          color: "red lighten-2",
+        },
+        {
           to: "/isi-frcu",
           title: "Ingeniería en Sistemas de Información",
           icon: "mdi-laptop",

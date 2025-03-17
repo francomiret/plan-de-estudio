@@ -1,24 +1,24 @@
 <template>
   <PlanDeEstudios
-    title="Ingeniería en Sistemas de Información (2023)"
+    title="Ingeniería Electromecánica (2023)"
     subtitle="UTN-FRCU"
-    titleIcon="mdi-laptop"
+    titleIcon="mdi-cog"
     progresoTitle="Ingeniero/a"
-    dbName="materiasIsi2023"
+    dbName="materiasElectro2023"
     :materiasProp="materias"
-    :horasElectivasProp="44"
+    :horasElectivasProp="28"
   />
 </template>
 
 <script>
 import PlanDeEstudios from "@/components/PlanDeEstudios";
-import isi from "../static/isi-frcu-2023.json";
+import electro from "../static/electro-frcu-2023.json";
 
 export default {
   components: { PlanDeEstudios },
   data() {
     return {
-      materias: isi,
+      materias: electro,
     };
   },
 };
