@@ -93,6 +93,11 @@ export default {
             },
             {
               icon: "mdi-laptop",
+              title: "ISI (2023)",
+              to: "/isi-frcu-2023",
+            },
+            {
+              icon: "mdi-laptop",
               title: "AUS",
               to: "/analista-frcu",
             },

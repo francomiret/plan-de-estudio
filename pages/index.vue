@@ -58,6 +58,12 @@ export default {
           color: "green lighten-2",
         },
         {
+          to: "/isi-frcu-2023",
+          title: "Ingeniería en Sistemas de Información (2023)",
+          icon: "mdi-laptop",
+          color: "green lighten-2",
+        },
+        {
           to: "/analista-frcu",
           title: "Analista Universitario de Sistemas",
           icon: "mdi-laptop",
