@@ -204,7 +204,7 @@ export default {
     },
     horasElectivasProp: {
       type: Number,
-      default: 44,
+      default: 0,
     },
   },
 

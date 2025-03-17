@@ -6,7 +6,6 @@
     progresoTitle="Profesor/a"
     dbName="materiasPuefUCU"
     :materiasProp="materias"
-    :horasElectivasProp="28"
   />
 </template>
 

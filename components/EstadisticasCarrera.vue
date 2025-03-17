@@ -48,7 +48,13 @@
               </v-card-text>
             </v-card>
           </v-col>
-          <v-col cols="12" sm="6" md="6" lg="4">
+          <v-col
+            cols="12"
+            sm="6"
+            md="6"
+            lg="4"
+            v-if="!!horasElectivasRequeridas"
+          >
             <v-card class="mx-auto pa-4" outlined>
               <v-card-title class="justify-center"
                 >Horas electivas</v-card-title
