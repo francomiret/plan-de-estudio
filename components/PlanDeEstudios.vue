@@ -91,106 +91,17 @@
                     </v-expansion-panel-header>
 
                     <v-expansion-panel-content>
-                      <v-container
-                        v-if="
-                          materia.paraCursar.necesitaRegular.length ||
-                          materia.paraCursar.necesitaAprobada.length
-                        "
-                      >
-                        <v-expansion-panels>
-                          <v-expansion-panel>
-                            <v-expansion-panel-header
-                              >Para cursar necesito
-                            </v-expansion-panel-header>
-                            <v-expansion-panel-content>
-                              <div
-                                v-if="materia.paraCursar.necesitaRegular.length"
-                              >
-                                <v-card-subtitle style="color: orangered"
-                                  >Regulares</v-card-subtitle
-                                >
-                                <v-card-text>
-                                  <p
-                                    v-for="(materia, i) in materiasRegulares(
-                                      materia
-                                    )"
-                                    :key="i"
-                                  >
-                                    <small>
-                                      {{ materia.nombre }}
-                                      <template>
-                                        <v-chip
-                                          x-small
-                                          :color="getColor(materia.estado)"
-                                        >
-                                          {{ materia.estado }}
-                                        </v-chip>
-                                        <v-icon
-                                          small
-                                          v-if="
-                                            !materiasAprobadasHabilitadas(
-                                              materia
-                                            ) ||
-                                            !materiasRegularesHabilitadas(
-                                              materia
-                                            )
-                                          "
-                                          color="error"
-                                        >
-                                          mdi-alert-circle
-                                        </v-icon>
-                                      </template>
-                                    </small>
-                                  </p>
-                                </v-card-text>
-                              </div>
-                              <div
-                                v-if="
-                                  materia.paraCursar.necesitaAprobada.length
-                                "
-                              >
-                                <v-card-subtitle style="color: green"
-                                  >Aprobadas</v-card-subtitle
-                                >
-                                <v-card-text>
-                                  <p
-                                    v-for="(materia, i) in materiasAprobadas(
-                                      materia
-                                    )"
-                                    :key="i"
-                                  >
-                                    <small>
-                                      {{ materia.nombre }}
-                                      <template>
-                                        <v-chip
-                                          x-small
-                                          :color="getColor(materia.estado)"
-                                        >
-                                          {{ materia.estado }}
-                                        </v-chip>
-                                        <v-icon
-                                          small
-                                          v-if="
-                                            !materiasAprobadasHabilitadas(
-                                              materia
-                                            ) ||
-                                            !materiasRegularesHabilitadas(
-                                              materia
-                                            )
-                                          "
-                                          color="error"
-                                        >
-                                          mdi-alert-circle
-                                        </v-icon>
-                                      </template>
-                                    </small>
-                                  </p>
-                                </v-card-text>
-                              </div>
-                            </v-expansion-panel-content>
-                          </v-expansion-panel>
-                        </v-expansion-panels>
-                      </v-container>
+                      <RequisitosMateria
+                        titulo="Para cursar necesito"
+                        :necesitaRegular="materiasRegularesParaCursar(materia)"
+                        :necesitaAprobada="materiasAprobadasParaCursar(materia)"
+                      />
+                      <RequisitosMateria
+                        v-if="materia.paraRendir"
+                        titulo="Para rendir necesito"
+                        :necesitaRegular="materiasRegularesParaRendir(materia)"
+                        :necesitaAprobada="materiasAprobadasParaRendir(materia)"
+                      />
                       <v-container>
                         <v-select
                           dense
@@ -243,106 +154,29 @@
       </v-col>
     </v-row>
 
-    <v-footer dark padless>
-      <v-container flat tile class="text-center">
-        <v-card-text class="white--text pt-0">
-          <v-row>
-            <v-col cols="12" sm="12" md="12">
-              <v-card class="mx-auto pa-4" outlined>
-                <v-card-title class="justify-center">Materias</v-card-title>
-                <v-card-text class="text-center">
-                  <v-row>
-                    <v-col cols="12" sm="4" md="4">
-                      <v-card outlined>
-                        <v-card-title class="justify-center"
-                          >Aprobadas</v-card-title
-                        >
-                        <v-card-text class="text-center">
-                          <p class="display-2 mb-2">
-                            {{ cantMateriasAprobadas }}/{{ data.length }}
-                          </p>
-                        </v-card-text>
-                      </v-card>
-                    </v-col>
-                    <v-col cols="12" sm="4" md="4">
-                      <v-card outlined>
-                        <v-card-title class="justify-center"
-                          >Regulares</v-card-title
-                        >
-                        <v-card-text class="text-center">
-                          <p class="display-2 mb-2">
-                            {{ cantMateriasRegulares }}/{{ data.length }}
-                          </p>
-                        </v-card-text>
-                      </v-card>
-                    </v-col>
-                    <v-col cols="12" sm="4" md="4">
-                      <v-card outlined>
-                        <v-card-title class="justify-center"
-                          >Cursando</v-card-title
-                        >
-                        <v-card-text class="text-center">
-                          <p class="display-2 mb-2">
-                            {{ cantMateriasCursando }}/{{ data.length }}
-                          </p>
-                        </v-card-text>
-                      </v-card>
-                    </v-col>
-                  </v-row>
-                </v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="6" md="6" lg="4">
-              <v-card class="mx-auto pa-4" outlined>
-                <v-card-title class="justify-center"
-                  >Horas electivas</v-card-title
-                >
-                <v-card-text class="text-center">
-                  <p class="display-2 mb-2">
-                    {{ totalHorasElectivas }}/{{ horasElectivasProp }}
-                  </p>
-                </v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="6" md="6" lg="4">
-              <v-card class="mx-auto pa-4" outlined>
-                <v-card-title class="justify-center"
-                  >Horas semanales cursando</v-card-title
-                >
-                <v-card-text class="text-center">
-                  <p class="display-2 mb-2">
-                    {{ totalHorasSemanales }}
-                  </p>
-                </v-card-text>
-              </v-card>
-            </v-col>
-
-            <v-col cols="12" sm="6" md="6" lg="4">
-              <v-card class="mx-auto pa-4" outlined>
-                <v-card-title class="justify-center">Promedio</v-card-title>
-                <v-card-text class="text-center">
-                  <p class="display-2">{{ promedioTotal }}</p>
-                </v-card-text>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="6" md="6" lg="12">
-              <v-card class="mx-auto pa-4" outlined>
-                <v-card-title class="justify-center">{{
-                  progresoTitle
-                }}</v-card-title>
-                <v-card-text class="text-center">
-                  <p class="display-2 mb-2">{{ progresoTotal }}%</p>
-                </v-card-text>
-              </v-card>
-            </v-col>
-          </v-row>
-        </v-card-text>
-      </v-container>
-    </v-footer>
+    <EstadisticasCarrera
+      :cantMateriasAprobadas="cantMateriasAprobadas"
+      :cantMateriasRegulares="cantMateriasRegulares"
+      :cantMateriasCursando="cantMateriasCursando"
+      :totalMaterias="data.length"
+      :horasElectivas="totalHorasElectivas"
+      :horasElectivasRequeridas="horasElectivasProp"
+      :horasSemanales="totalHorasSemanales"
+      :promedio="String(promedioTotal)"
+      :progreso="String(progresoTotal)"
+      :progresoTitulo="progresoTitle"
+    />
   </div>
 </template>
 <script>
+import RequisitosMateria from "./RequisitosMateria.vue";
+import EstadisticasCarrera from "./EstadisticasCarrera.vue";
+
 export default {
+  components: {
+    RequisitosMateria,
+    EstadisticasCarrera,
+  },
   props: {
     title: {
       type: String,
@@ -472,7 +306,7 @@ export default {
       });
     },
 
-    materiasRegulares(materia) {
+    materiasRegularesParaCursar(materia) {
       const materiasRegulares = [];
       materia.paraCursar.necesitaRegular.forEach((element) => {
         materiasRegulares.push(this.data.find((x) => x.id === element));
@@ -480,9 +314,27 @@ export default {
       return materiasRegulares;
     },
 
-    materiasAprobadas(materia) {
+    materiasAprobadasParaCursar(materia) {
       const materiasAprobadas = [];
       materia.paraCursar.necesitaAprobada.forEach((element) => {
+        materiasAprobadas.push(this.data.find((x) => x.id === element));
+      });
+      return materiasAprobadas;
+    },
+
+    materiasRegularesParaRendir(materia) {
+      if (!materia.paraRendir?.necesitaRegular) return [];
+      const materiasRegulares = [];
+      materia.paraRendir.necesitaRegular.forEach((element) => {
+        materiasRegulares.push(this.data.find((x) => x.id === element));
+      });
+      return materiasRegulares;
+    },
+
+    materiasAprobadasParaRendir(materia) {
+      if (!materia.paraRendir?.necesitaAprobada) return [];
+      const materiasAprobadas = [];
+      materia.paraRendir.necesitaAprobada.forEach((element) => {
         materiasAprobadas.push(this.data.find((x) => x.id === element));
       });
       return materiasAprobadas;
@@ -497,7 +349,9 @@ export default {
     },
 
     materiasRegularesHabilitadas(materia) {
-      const materiasRegulareshanilitadas = this.materiasRegulares(materia)
+      const materiasRegulareshanilitadas = this.materiasRegularesParaCursar(
+        materia
+      )
         .map((x) => x.estado)
         .every((x) => x === "REGULAR" || x === "APROBADA");
 
@@ -524,10 +378,19 @@ export default {
     },
 
     materiasAprobadasHabilitadas(materia) {
-      const materiasAprobadasHabilitadas = this.materiasAprobadas(materia)
-        .map((x) => x.estado)
-        .every((x) => x === "APROBADA");
-      if (materiasAprobadasHabilitadas) {
+      const materiasAprobadasHabilitadasParaCursar =
+        this.materiasAprobadasParaCursar(materia)
+          .map((x) => x.estado)
+          .every((x) => x === "APROBADA");
+
+      const materiasAprobadasHabilitadasParaRendir =
+        this.materiasAprobadasParaRendir(materia)
+          .map((x) => x.estado)
+          .every((x) => x === "APROBADA");
+      if (
+        materiasAprobadasHabilitadasParaCursar ||
+        materiasAprobadasHabilitadasParaRendir
+      ) {
         return true;
       } else {
         return false;

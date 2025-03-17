@@ -713,5 +713,21 @@
       "necesitaRegular": ["22", "26", "27", "34"],
       "necesitaAprobada": ["17", "18", "19", "20", "21", "23", "24"]
     }
+  },
+  {
+    "nota": null,
+    "id": "99",
+    "nombre": "Práctica Supervisada",
+    "horas": "200",
+    "ano": "5",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["25", "26", "27", "29"],
+      "necesitaAprobada": ["17", "19", "20", "21", "22", "23", "24"]
+    }
   }
 ]

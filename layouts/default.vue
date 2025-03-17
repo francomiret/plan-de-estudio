@@ -114,6 +114,17 @@ export default {
           ],
           title: "UTN-FRCU",
         },
+        {
+          action: "",
+          items: [
+            {
+              icon: "mdi-dumbbell",
+              title: "PUEF",
+              to: "/puef-ucu",
+            },
+          ],
+          title: "UCU",
+        },
       ],
       miniVariant: false,
       right: true,

@@ -1,0 +1,782 @@
+[
+  {
+    "nota": null,
+    "id": "1",
+    "nombre": "Pedagogía",
+    "horas": "2",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "2",
+    "nombre": "Fundamentos Biológicos del Movimiento Humano I",
+    "horas": "3",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "3",
+    "nombre": "Gimnasia I",
+    "horas": "2",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "4",
+    "nombre": "Atletismo",
+    "horas": "3",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "5",
+    "nombre": "Hándbol",
+    "horas": "2",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "6",
+    "nombre": "Práctica Docente I",
+    "horas": "4",
+    "ano": "1",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "7",
+    "nombre": "Filosofía de la Educación",
+    "horas": "1",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "8",
+    "nombre": "Historia de la Educación Argentina",
+    "horas": "1",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "9",
+    "nombre": "Introducción a los Estudios Universitarios de la Educación Física",
+    "horas": "1",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "10",
+    "nombre": "Taller de Alfabetización Académica",
+    "horas": "1",
+    "ano": "1",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "11",
+    "nombre": "Psicología del Desarrollo",
+    "horas": "1",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "12",
+    "nombre": "Historia de la Educación Física",
+    "horas": "1",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "13",
+    "nombre": "Taller de Recreación y Tiempo Libre",
+    "horas": "1",
+    "ano": "1",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "14",
+    "nombre": "Didáctica General",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["1"], "necesitaAprobada": ["1"] },
+    "paraRendir": {
+      "necesitaAprobada": ["1"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "15",
+    "nombre": "Fundamentos Biológicos del Movimiento Humano II",
+    "horas": "3",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["2"], "necesitaAprobada": ["2"] },
+    "paraRendir": {
+      "necesitaAprobada": ["2"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "16",
+    "nombre": "Análisis de la Acción Motriz",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["2"], "necesitaAprobada": ["2"] },
+    "paraRendir": {
+      "necesitaAprobada": ["2"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "17",
+    "nombre": "Formación Corporal",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["11"], "necesitaAprobada": ["11"] },
+    "paraRendir": {
+      "necesitaAprobada": ["11"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "18",
+    "nombre": "Gimnasia II",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["3"], "necesitaAprobada": ["3"] },
+    "paraRendir": {
+      "necesitaAprobada": ["3"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "19",
+    "nombre": "Natación I",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "20",
+    "nombre": "Básquet",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "21",
+    "nombre": "Vóley",
+    "horas": "2",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "22",
+    "nombre": "Práctica Docente II",
+    "horas": "4",
+    "ano": "2",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["3", "4", "5", "6"],
+      "necesitaAprobada": ["3", "4", "5", "6"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["3", "4", "5", "6"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "23",
+    "nombre": "Psicología de la Educación",
+    "horas": "1",
+    "ano": "2",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["11"], "necesitaAprobada": ["11"] },
+    "paraRendir": {
+      "necesitaAprobada": ["11"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "24",
+    "nombre": "Sociología de la Educación",
+    "horas": "1",
+    "ano": "2",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["7", "8"],
+      "necesitaAprobada": ["7", "8"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["7", "8"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "25",
+    "nombre": "Taller de Inglés Técnico",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["10"], "necesitaAprobada": ["10"] },
+    "paraRendir": {
+      "necesitaAprobada": ["10"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "26",
+    "nombre": "Teoría y Práctica del Entrenamiento Deportivo I",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["15", "16", "17"],
+      "necesitaAprobada": ["2", "11"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["15", "16", "17"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "27",
+    "nombre": "Evaluación de la Aptitud Física",
+    "horas": "3",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["15", "16"],
+      "necesitaAprobada": ["2", "11"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["15", "16"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "28",
+    "nombre": "Didáctica de la Educación Física",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "14"],
+      "necesitaAprobada": ["1"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["11", "14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "29",
+    "nombre": "Gimnasia III",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["18"], "necesitaAprobada": ["3"] },
+    "paraRendir": {
+      "necesitaAprobada": ["18"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "30",
+    "nombre": "Fútbol",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "31",
+    "nombre": "Hockey",
+    "horas": "2",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "32",
+    "nombre": "Práctica Docente III",
+    "horas": "6",
+    "ano": "3",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["18", "19", "20", "21", "22"],
+      "necesitaAprobada": ["3", "4", "5", "6"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["18", "19", "20", "21", "22"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "33",
+    "nombre": "Seminario-Taller de Educación Sexual Integral",
+    "horas": "1",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["11"], "necesitaAprobada": ["11"] },
+    "paraRendir": {
+      "necesitaAprobada": ["11"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "34",
+    "nombre": "Psicología Social y del Deporte",
+    "horas": "1",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["11", "13"],
+      "necesitaAprobada": ["11", "13"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "35",
+    "nombre": "Taller de Salud y Educación Física",
+    "horas": "1",
+    "ano": "3",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["15"], "necesitaAprobada": ["2"] },
+    "paraRendir": {
+      "necesitaAprobada": ["15"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "36",
+    "nombre": "Investigación Educativa",
+    "horas": "1",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["14", "24"],
+      "necesitaAprobada": ["1", "7", "8"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "37",
+    "nombre": "Seminario de Enfoques de la Enseñanza en Entornos Digitales",
+    "horas": "1",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["14"], "necesitaAprobada": ["1"] },
+    "paraRendir": {
+      "necesitaAprobada": ["14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "38",
+    "nombre": "Taller de Tecnología Aplicada a la Educación Física",
+    "horas": "1",
+    "ano": "3",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["16"], "necesitaAprobada": ["2"] },
+    "paraRendir": {
+      "necesitaAprobada": ["16"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "39",
+    "nombre": "Seminario-Taller de Actividades en el Ambiente Natural",
+    "horas": "2",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["13"], "necesitaAprobada": ["13"] },
+    "paraRendir": {
+      "necesitaAprobada": ["13"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "40",
+    "nombre": "Taller de Inclusión y Deportes para Personas con Discapacidad",
+    "horas": "2",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["28"],
+      "necesitaAprobada": ["11", "14"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "41",
+    "nombre": "Natación II",
+    "horas": "2",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["19"], "necesitaAprobada": ["19"] },
+    "paraRendir": {
+      "necesitaAprobada": ["19"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "42",
+    "nombre": "Rugby",
+    "horas": "2",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "43",
+    "nombre": "Softbol",
+    "horas": "2",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  },
+  {
+    "nota": null,
+    "id": "44",
+    "nombre": "Teoría y Práctica del Entrenamiento Deportivo II",
+    "horas": "2",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "27"],
+      "necesitaAprobada": ["15", "16", "17"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["26", "27"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "45",
+    "nombre": "Práctica Docente IV",
+    "horas": "6",
+    "ano": "4",
+    "cuatrimestre": "0",
+    "esAnual": true,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["26", "27", "28", "29", "30", "31", "32"],
+      "necesitaAprobada": ["7", "8", "11", "14", "15", "16", "17", "18", "19"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["26", "27", "28", "29", "30", "31", "32"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "46",
+    "nombre": "Política y Legislación Educativa",
+    "horas": "1",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["24"], "necesitaAprobada": ["7", "8"] },
+    "paraRendir": {
+      "necesitaAprobada": ["24"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "47",
+    "nombre": "Epistemología de la Educación Física",
+    "horas": "1",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["36"],
+      "necesitaAprobada": ["14", "24"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "48",
+    "nombre": "Seminario-Taller de Gestión de Recursos y Eventos Deportivos",
+    "horas": "1",
+    "ano": "4",
+    "cuatrimestre": "1",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["34"],
+      "necesitaAprobada": ["11", "13"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "49",
+    "nombre": "Seminario de Derechos Humanos, Ética y Ciudadanía",
+    "horas": "1",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": ["24"], "necesitaAprobada": ["7", "8"] },
+    "paraRendir": {
+      "necesitaAprobada": ["24"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "50",
+    "nombre": "Taller de Tendencias Actuales en la Educación Física",
+    "horas": "1.5",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": {
+      "necesitaRegular": ["9", "12", "36"],
+      "necesitaAprobada": ["11"]
+    },
+    "paraRendir": {
+      "necesitaAprobada": ["9", "12", "36"]
+    }
+  },
+  {
+    "nota": null,
+    "id": "51",
+    "nombre": "Taller: Espacio Optativo",
+    "horas": "1",
+    "ano": "4",
+    "cuatrimestre": "2",
+    "esAnual": false,
+    "estado": "DESAPROBADA",
+    "integradora": false,
+    "electiva": false,
+    "paraCursar": { "necesitaRegular": [], "necesitaAprobada": [] }
+  }
+]
