@@ -237,29 +237,93 @@
       <v-container flat tile class="text-center">
         <v-card-text class="white--text pt-0">
           <v-row>
-            <v-col cols="12" sm="6" md="4">
-              <p class="display-2">
-                {{ cantMateriasAprobadas }}/{{ data.length }}
-              </p>
-              <p class="headline">Materias aprobadas</p>
+            <v-col cols="12" sm="12" md="12">
+              <v-card class="mx-auto pa-4" outlined>
+                <v-card-title class="justify-center">Materias</v-card-title>
+                <v-card-text class="text-center">
+                  <v-row>
+                    <v-col cols="12" sm="4" md="4">
+                      <v-card outlined>
+                        <v-card-title class="justify-center"
+                          >Aprobadas</v-card-title
+                        >
+                        <v-card-text class="text-center">
+                          <p class="display-2 mb-2">
+                            {{ cantMateriasAprobadas }}/{{ data.length }}
+                          </p>
+                        </v-card-text>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="12" sm="4" md="4">
+                      <v-card outlined>
+                        <v-card-title class="justify-center"
+                          >Regulares</v-card-title
+                        >
+                        <v-card-text class="text-center">
+                          <p class="display-2 mb-2">
+                            {{ cantMateriasRegulares }}/{{ data.length }}
+                          </p>
+                        </v-card-text>
+                      </v-card>
+                    </v-col>
+                    <v-col cols="12" sm="4" md="4">
+                      <v-card outlined>
+                        <v-card-title class="justify-center"
+                          >Cursando</v-card-title
+                        >
+                        <v-card-text class="text-center">
+                          <p class="display-2 mb-2">
+                            {{ cantMateriasCursando }}/{{ data.length }}
+                          </p>
+                        </v-card-text>
+                      </v-card>
+                    </v-col>
+                  </v-row>
+                </v-card-text>
+              </v-card>
             </v-col>
-            <v-col cols="12" sm="6" md="4">
-              <p class="display-2">
-                {{ totalHorasElectivas }}/{{ horasElectivasProp }}
-              </p>
-              <p class="headline">Horas electivas</p>
+            <v-col cols="12" sm="6" md="6" lg="4">
+              <v-card class="mx-auto pa-4" outlined>
+                <v-card-title class="justify-center"
+                  >Horas electivas</v-card-title
+                >
+                <v-card-text class="text-center">
+                  <p class="display-2 mb-2">
+                    {{ totalHorasElectivas }}/{{ horasElectivasProp }}
+                  </p>
+                </v-card-text>
+              </v-card>
             </v-col>
-            <v-col cols="12" sm="6" md="4">
-              <p class="display-2">{{ totalHorasSemanales }}</p>
-              <p class="headline">Horas semanales cursando</p>
+            <v-col cols="12" sm="6" md="6" lg="4">
+              <v-card class="mx-auto pa-4" outlined>
+                <v-card-title class="justify-center"
+                  >Horas semanales cursando</v-card-title
+                >
+                <v-card-text class="text-center">
+                  <p class="display-2 mb-2">
+                    {{ totalHorasSemanales }}
+                  </p>
+                </v-card-text>
+              </v-card>
             </v-col>
-            <v-col cols="12" sm="6" md="6">
-              <p class="display-2">{{ progresoTotal }}%</p>
-              <p class="headline">{{ progresoTitle }}</p>
+
+            <v-col cols="12" sm="6" md="6" lg="4">
+              <v-card class="mx-auto pa-4" outlined>
+                <v-card-title class="justify-center">Promedio</v-card-title>
+                <v-card-text class="text-center">
+                  <p class="display-2">{{ promedioTotal }}</p>
+                </v-card-text>
+              </v-card>
             </v-col>
-            <v-col cols="12" sm="12" md="6">
-              <p class="display-2">{{ promedioTotal }}</p>
-              <p class="headline">Promedio</p>
+            <v-col cols="12" sm="6" md="6" lg="12">
+              <v-card class="mx-auto pa-4" outlined>
+                <v-card-title class="justify-center">{{
+                  progresoTitle
+                }}</v-card-title>
+                <v-card-text class="text-center">
+                  <p class="display-2 mb-2">{{ progresoTotal }}%</p>
+                </v-card-text>
+              </v-card>
             </v-col>
           </v-row>
         </v-card-text>
@@ -304,6 +368,8 @@ export default {
     return {
       data: this.materiasProp,
       cantMateriasAprobadas: 0,
+      cantMateriasRegulares: 0,
+      cantMateriasCursando: 0,
       totalHorasElectivas: 0,
       progresoTotal: 0,
       totalHorasSemanales: 0,
@@ -363,6 +429,18 @@ export default {
     cantidadMateriasAprobadas(materias) {
       this.cantMateriasAprobadas = materias.filter(
         (x) => x.estado === "APROBADA"
+      ).length;
+    },
+
+    cantidadMateriasRegulares(materias) {
+      this.cantMateriasRegulares = materias.filter(
+        (x) => x.estado === "REGULAR"
+      ).length;
+    },
+
+    cantidadMateriasCursando(materias) {
+      this.cantMateriasCursando = materias.filter(
+        (x) => x.estado === "CURSANDO"
       ).length;
     },
 
@@ -473,6 +551,8 @@ export default {
 
     actualizarEstadisticas(materias) {
       this.cantidadMateriasAprobadas(materias);
+      this.cantidadMateriasRegulares(materias);
+      this.cantidadMateriasCursando(materias);
       this.horasElectivas(materias);
       this.horasSemanales(materias);
       this.progreso(materias);
@@ -497,7 +577,12 @@ export default {
     this.cantMateriasAprobadas = this.data.filter(
       (x) => x.estado === "APROBADA"
     ).length;
-
+    this.cantidadMateriasRegulares(
+      this.data.filter((x) => x.estado === "REGULAR")
+    );
+    this.cantidadMateriasCursando(
+      this.data.filter((x) => x.estado === "CURSANDO")
+    );
     this.actualizarEstadisticas(this.data);
   },
 };
